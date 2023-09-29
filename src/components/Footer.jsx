@@ -67,7 +67,7 @@ export const Footer = () => {
           </div>
         </div>
         <p>
-          CITIES WE DELIVER TO Mumbai: Pune, Gurugram, Bengaluru, Hyderabad,
+          CITIES WE DELIVER TO: Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
           Chennai, Delhi, Noida, Ghaziabad, Faridabad
         </p>
         <div className="footer-copyright">

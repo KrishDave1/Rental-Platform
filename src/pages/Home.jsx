@@ -11,6 +11,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Display_Slider />
+      <Products />
       <Footer />
     </div>
   );
