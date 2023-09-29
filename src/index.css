@@ -8,11 +8,12 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 350px;
 }
 
 .footer-section {
   /* Calculate width with spacing between sections */
-  margin-bottom: 20px; /* Space between sections */
+  /* margin-bottom: 20px; Space between sections */
   margin-left: 40px;
   padding: 30px;
   height: 180px;
