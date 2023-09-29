@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const Display_Slider = () => {
-  return (
-    <div>Display_Slider</div>
-  )
-}
+  return <div>Display_Slider hfhgh</div>;
+};
