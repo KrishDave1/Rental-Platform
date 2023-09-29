@@ -16,6 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url
+from ..base.views import ReactView
 
 admin.site.site_header = "Valmik Administration"
 admin.site.site_title = "Valmik Website Portal"
@@ -23,5 +25,6 @@ admin.site.index_title = "Welcome to Valmik's portal"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('base.urls'))
+    path('', include('base.urls')),
+    path('wel/', ReactView.as_view(), name="something")
 ]
