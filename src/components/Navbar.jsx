@@ -2,12 +2,18 @@ import { Link } from "react-router-dom";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
+import { useGlobalContext } from "../context";
+
 export const Navbar = () => {
+  const { dummy } = useGlobalContext();
+  const hello = () => {
+    console.log(dummy);
+  };
   return (
     <nav className="">
       <ul className="list-none flex justify-center items-center h-24">
         <Link to="/">
-          <li className="px-10">Home</li>
+          <li>Home</li>
         </Link>
         <Link to="" />
         <li className="px-10">

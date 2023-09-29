@@ -1,7 +1,19 @@
-import React from 'react'
+import { useContext } from "react";
+import React from "react";
 
-export const context = () => {
+const AppContext = React.createContext();
+
+const AppProvider = ({ children }) => {
+  const dummy = "dummy";
+
   return (
-    <div>context</div>
-  )
+    <AppContext.Provider value={{dummy}}>{children}</AppContext.Provider>
+  );
+};
+
+export const useGlobalContext = () => {
+  return useContext(AppContext);
 }
+
+export { AppContext, AppProvider };
+
