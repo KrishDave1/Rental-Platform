@@ -1,0 +1,1 @@
+Helllo, trying to learn Django.
