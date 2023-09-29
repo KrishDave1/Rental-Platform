@@ -9,7 +9,7 @@ class User(models.Model):
     def __str__(self) -> str:
         return self.name
 
-# class Listing:
+# class Listing(models.Model):
 #     type_Of_Item = models.CharField(max_length=100)
 #     price = models.IntegerField(max_length=10)
 #     duration_Of_Rent = models.IntegerField(max_length=10)
