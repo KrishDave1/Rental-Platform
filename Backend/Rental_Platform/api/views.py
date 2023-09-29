@@ -29,3 +29,10 @@ def listings(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
+    
+@api_view(['GET'])
+def filter_Listings(request, pk):
+    if(request.method == "GET"):
+        filtered = Listing.objects.filter(type_Of_Item = pk).values()
+        serializer = Listing_Serializer(filtered, many=True)
+        return Response(serializer.data)
