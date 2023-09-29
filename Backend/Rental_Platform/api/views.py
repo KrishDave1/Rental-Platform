@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from base.models import User
-from .serializer import User_Serializer
+from base.models import User, Listing
+from .serializer import User_Serializer, Listing_Serializer
 from rest_framework import status
 
 @api_view(['GET', 'POST'])
