@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* Text color */
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+  margin-top: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-section {
+  /* Calculate width with spacing between sections */
+  margin-bottom: 20px; /* Space between sections */
+  margin-left: 40px;
+  padding: 30px;
+  height: 180px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; /* Header text color */
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #bbb; /* Link color */
+}
+
+.footer a:hover {
+  color: #fff; /* Link color on hover */
+}
+
+.footer-copyright {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px; /* Space between sections and copyright */
+}
