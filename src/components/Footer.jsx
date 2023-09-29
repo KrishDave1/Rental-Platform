@@ -1,10 +1,3 @@
-import { IconContext } from "react-icons";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa6";
 import { SocialIcon } from "react-social-icons";
 
 export const Footer = () => {

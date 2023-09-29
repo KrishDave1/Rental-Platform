@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+      <Display_Slider />
       <Footer />
     </div>
   );
