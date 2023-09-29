@@ -1,4 +1,5 @@
 import "./App.css";
+import { Navbar } from "./components";
 // import {
 //   Display_Slider,
 //   Extra_Discounts,
@@ -18,16 +19,19 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="buy" element={<Buy />} />
-        <Route path="rent" element={<Rent />} />
-        <Route path="cart" element={<Cart />} />
-        <Route path="profile" element={<Profile />} />
+      <main>
+        <Navbar />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="buy" element={<Buy />} />
+          <Route path="rent" element={<Rent />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="profile" element={<Profile />} />
 
-        {/* <Route path="contact" element={<Contact />} />
+          {/* <Route path="contact" element={<Contact />} />
         <Route path="forgot" element={<Forgot />} /> */}
-      </Routes>
+        </Routes>
+      </main>
     </BrowserRouter>
   );
 };

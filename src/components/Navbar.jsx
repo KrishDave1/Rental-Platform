@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { IoLocationOutline } from "react-icons/io5";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { useGlobalContext } from "../context";
+import Search from "./Search";
 
 export const Navbar = () => {
   const { dummy } = useGlobalContext();
@@ -25,6 +26,9 @@ export const Navbar = () => {
         <li className="px-10">
           <Link to="/rent">Rent</Link>
         </li>
+        <li>
+          <Search />
+        </li>
         <li className="px-10">
           <Link to="/cart">
             <AiOutlineShoppingCart />
@@ -33,6 +37,11 @@ export const Navbar = () => {
         <li className="px-10">
           <Link to="/profile">
             <BsPersonFill />
+          </Link>
+        </li>
+        <li className="px-10">
+          <Link to="/wishlist">
+            <AiOutlineHeart />
           </Link>
         </li>
       </ul>
