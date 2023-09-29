@@ -1,20 +1,35 @@
-import './App.css'
-import { Display_Slider,Extra_Discounts,Footer,Home,Navbar,Offers_Discounts,Products } from './components'
+import "./App.css";
+// import {
+//   Display_Slider,
+//   Extra_Discounts,
+//   Footer,
+//   Navbar,
+//   Offers_Discounts,
+//   Products,
+// } from "./components";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import Buy from "./pages/buy";
+import Cart from "./pages/cart";
+import Rent from "./pages/rent";
 
-import React from 'react'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-      <Products/>
-      <Display_Slider/>
-      <Offers_Discounts/>
-      <Extra_Discounts/>
-      <Footer />
-    </div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="buy" element={<Buy />} />
+        <Route path="rent" element={<Rent />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="profile" element={<Profile />} />
 
-export default App
+        {/* <Route path="contact" element={<Contact />} />
+        <Route path="forgot" element={<Forgot />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App;
