@@ -1,7 +1,12 @@
 from rest_framework import serializers
-from base.models import Item
+from base.models import User
 
-class Item_Serializer(serializers.ModelSerializer):
+class User_Serializer(serializers.ModelSerializer):
     class Meta:
-        model = Item
+        model = User
         fields = '__all__'
+
+# class Listing_Serializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Listing
+#         fields = '__all__'
