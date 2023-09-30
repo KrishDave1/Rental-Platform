@@ -3,7 +3,7 @@ import { Extra_Discounts } from "./Extra_Discounts";
 import { Footer } from "./Footer";
 
 import { Navbar } from "./Navbar";
-import { Products } from "../pages/Products";
+import { Products } from "./Products";
 import { Offers_Discounts } from "./Offers_Discounts";
 
 export {

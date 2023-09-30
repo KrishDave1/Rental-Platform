@@ -1,18 +1,6 @@
 import "./App.css";
-import { Navbar } from "./components";
-// import {
-//   Display_Slider,
-//   Extra_Discounts,
-//   Footer,
-//   Navbar,
-//   Offers_Discounts,
-//   Products,
-// } from "./components";
-import Home from "./pages/Home";
-import Profile from "./pages/Profile";
-import Buy from "./pages/buy";
-import Cart from "./pages/cart";
-import Rent from "./pages/rent";
+import { Navbar, Footer } from "./components";
+import { Buy, Cart, Home, Login, Profile, Rent } from "./pages";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -27,9 +15,7 @@ const App = () => {
           <Route path="rent" element={<Rent />} />
           <Route path="cart" element={<Cart />} />
           <Route path="profile" element={<Profile />} />
-
-          {/* <Route path="contact" element={<Contact />} />
-        <Route path="forgot" element={<Forgot />} /> */}
+          <Route path="login" element = {<Login />} />
         </Routes>
       </main>
     </BrowserRouter>
