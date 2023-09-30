@@ -36,7 +36,7 @@ export default function Cart() {
     );
 
   return (
-    <>
+    <div className="bg-white grid grid-cols-2 mx-3 rounded-md">
       <ul>
         {products?.map((item) => {
           if (cartItems[item.id] !== 0) {
@@ -44,18 +44,19 @@ export default function Cart() {
           }
         })}
       </ul>
-
-      <p>Subtotal: {totalprice}</p>
-      <p>Total Amount(including taxes and delivery charges): {Total_Price}</p>
-      <button onClick={Clear} className="cart-btn btn">
-        Clear Cart
-      </button>
-      <button onClick={() => navigate("/buy")} className="cart-btn btn">
-        Continue Shopping
-      </button>
-      <button onClick={() => navigate("/checkout")} className="cart-btn btn">
-        Proceed to checkout
-      </button>
-    </>
+      <div className="bg-slate-400 mt-5 rounded-md mx-3">
+        <p>Subtotal: {totalprice}</p>
+        <p>Total Amount(including taxes and delivery charges): {Total_Price}</p>
+        <button onClick={Clear} className="cart-btn btn">
+          Clear Cart
+        </button>
+        <button onClick={() => navigate("/buy")} className="cart-btn btn">
+          Continue Shopping
+        </button>
+        <button onClick={() => navigate("/checkout")} className="cart-btn btn">
+          Proceed to checkout
+        </button>
+      </div>
+    </div>
   );
 }
