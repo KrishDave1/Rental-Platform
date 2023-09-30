@@ -6,12 +6,13 @@ import {
   Extra_Discounts,
   Display_Slider,
 } from "../components";
+import Homepage from "./Homepage";
 const Home = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Display_Slider />
-      <Products />
+      {/* <Products /> */}
       <Footer />
     </div>
   );
