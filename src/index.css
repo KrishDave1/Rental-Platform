@@ -202,6 +202,8 @@ body {
   --padding-5xs: 0.5rem;
 }
 
+/* Footer CSS */
+
 .footer {
   display: flex;
   justify-content: space-evenly;
