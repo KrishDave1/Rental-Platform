@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,700;0,800;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif+Caption:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-pt-serif-caption: "PT Serif Caption";
+  --font-judson: Judson;
+
+  /* font sizes */
+  --font-size-lg: 1.13rem;
+  --font-size-7xl: 1.63rem;
+  --font-size-xl: 1.25rem;
+  --font-size-51xl: 4.38rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-6xl: 1.56rem;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-5xl: 1.5rem;
+  --gap-5xs: 0.5rem;
+  --gap-3xs: 0.63rem;
+
+  /* Paddings */
+  --padding-21xl: 2.5rem;
+  --padding-45xl: 4rem;
+  --padding-5xs: 0.5rem;
+}
+
 .footer {
   display: flex;
   justify-content: space-evenly;
