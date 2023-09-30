@@ -6,10 +6,6 @@ import { useGlobalContext } from "../context";
 import Search from "./Search";
 
 export const Navbar = () => {
-  const { dummy } = useGlobalContext();
-  const hello = () => {
-    console.log(dummy);
-  };
   return (
     <nav className="">
       <ul className="list-none flex justify-center items-center h-24">
