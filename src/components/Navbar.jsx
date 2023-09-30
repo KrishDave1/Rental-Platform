@@ -6,15 +6,20 @@ import { useGlobalContext } from "../context";
 import Search from "./Search";
 
 export const Navbar = () => {
+  const { setLocation } = useGlobalContext();
+
+  function handleLoc() {
+    setLocation(true);
+  }
   return (
     <nav className="">
-      <ul className="list-none flex justify-center items-center h-24">
+      <ul className="list-none flex flex-wrap justify-center items-center h-24">
         <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="" />
+
         <li className="px-10">
-          <IoLocationOutline />
+          <button onClick={() => handleLoc()}>Location</button>
         </li>
         <li className="px-10">
           <Link to="/buy">Buy</Link>

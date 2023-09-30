@@ -16,6 +16,7 @@ const dummyProducts = "https://dummyjson.com/products?limit=100";
 const AppProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
+  const [location, setLocation] = useState(false);
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
   }
@@ -74,6 +75,8 @@ const AppProvider = ({ children }) => {
         GetAmount,
         ClearCart,
         count,
+        location,
+        setLocation,
       }}
     >
       {children}
