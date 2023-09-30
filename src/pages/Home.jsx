@@ -9,7 +9,7 @@ import {
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Display_Slider />
       <Products />
       <Footer />

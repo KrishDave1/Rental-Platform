@@ -1,5 +1,7 @@
+import { Products } from "./Products";
+
 const Buy = () => {
-  return <div>Buy page</div>;
+  return <Products />;
 };
 
 export default Buy;
