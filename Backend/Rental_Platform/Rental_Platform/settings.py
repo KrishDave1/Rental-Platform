@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'base',
-    'corsheaders'
+    'base.apps.BaseConfig',
+    'corsheaders',
+    'rest_framework_simplejwt',
+    'knox',
+    'accounts',
+    'authentication'
 ]
 
 MIDDLEWARE = [
@@ -59,7 +63,9 @@ ROOT_URLCONF = 'Rental_Platform.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR/"templates"
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -104,6 +110,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES' : (
+        'knox.auth.TokenAuthentication',
+    )
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
@@ -131,3 +142,10 @@ CORS_ALLOW_ORIGIN = 'http://localhost:3000'
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = ['GET', 'POST', 'OPTIONS']
 CORS_ALLOW_HEADERS = ['Origin', 'Content-Type', 'Accept']
+
+AUTHENTICATION_BACKENDS = [
+    'knox.auth.TokenAuthentication',
+    'django.contrib.auth.backends.ModelBackend',  # Use Django's default authentication backend.
+]
+
+# AUTH_USER_MODEL = 'accounts.CustomUser'
