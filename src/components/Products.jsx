@@ -3,18 +3,18 @@ import { useGlobalContext } from "../context";
 
 export const Products = () => {
   const { products } = useGlobalContext();
-  const { handleAdd, items } = useGlobalContext();
-  function toastfn(singleProduct) {
-    return (
-      toast.success(`${singleProduct.title} added to Cart`),
-      {
-        theme: "colored",
-      }
-    );
-  }
+  const { handleAdd, cartItems } = useGlobalContext();
+  // function toastfn(singleProduct) {
+  //   return (
+  //     toast.success(`${singleProduct.title} added to Cart`),
+  //     {
+  //       theme: "colored",
+  //     }
+  //   );
+  // }
   function handle(singleProduct) {
     handleAdd(singleProduct.id);
-    if (items[singleProduct.id] <= 1) toastfn(singleProduct);
+    // if (cartItems[singleProduct.id] < 1) toastfn(singleProduct);
   }
 
   return (
@@ -37,12 +37,15 @@ export const Products = () => {
                   className="cart-btn btn"
                   onClick={() => handle(singleProduct)}
                 >
-                  Add to Cart
+                  Add To Cart
+                  {cartItems[singleProduct.id] === 0
+                    ? ""
+                    : `(${cartItems[singleProduct.id]})`}
                 </button>
                 <button className="buy-btn btn">Buy Now</button>
               </div>
             </footer>
-            <ToastContainer />
+            {/* <ToastContainer /> */}
           </article>
         );
       })}
