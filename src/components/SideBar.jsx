@@ -1,5 +1,6 @@
 import React from "react";
 import { ImCross } from "react-icons/im";
+import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 const cities = [
   {
     id: 11,
@@ -58,19 +59,44 @@ const cities = [
 ];
 
 const SideBar = () => {
+  //   return (
+  //     <aside className="sidebar-overlay">
+  //       <div className="sidebar-container">
+  //         {cities.map((singleCity) => {
+  //           const { id, img, name, pincode } = singleCity;
+  //           return (
+  //             <article key={id} className="single-city">
+  //               <img src={img} alt={name} className="img" />
+  //               <p>{name}</p>
+  //             </article>
+  //           );
+  //         })}
+  //       </div>
+  //     </aside>
+
   return (
-    <aside className="sidebar-overlay">
-      <div className="sidebar-container">
-        {cities.map((singleCity) => {
+    <Sidebar width="500px">
+      <Menu
+        rootStyles={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}
+      >
+        {cities.map((singleCity, i) => {
           const { id, img, name, pincode } = singleCity;
           return (
-            <article key={id} className="single-city">
-              <img src={img} alt={name} className="img" />
-            </article>
+            <MenuItem
+              key={i}
+              rootStyles={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+              }}
+            >
+              <img src={cities[i].img} style={{ height: "100px" }} />
+              <p>{cities[i].name}</p>
+            </MenuItem>
           );
         })}
-      </div>
-    </aside>
+      </Menu>
+    </Sidebar>
   );
 };
 
