@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from rest_framework.permissions import AllowAny
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -43,8 +44,11 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'knox',
     'accounts',
-    'authentication'
+    'authentication',
+    'React_Testing'
 ]
+
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -110,6 +114,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CORS_ALLOW_ORIGIN_ALL = True
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES' : (
         'knox.auth.TokenAuthentication',
@@ -138,7 +144,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOW_ORIGIN = 'http://localhost:3000'
+# CORS_ALLOW_ORIGIN = 'http://localhost:3000'
+CORS_ALLOW_ORIGIN_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = ['GET', 'POST', 'OPTIONS']
 CORS_ALLOW_HEADERS = ['Origin', 'Content-Type', 'Accept']

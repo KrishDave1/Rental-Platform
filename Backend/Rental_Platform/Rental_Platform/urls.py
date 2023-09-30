@@ -16,10 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from React_Testing.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('authentication.urls'))
+    path('', include('React_Testing.urls'))
+    # path('', include('authentication.urls'))
     # path('', include('accounts.urls')),
     # path('', include('api.urls')),
 ]
