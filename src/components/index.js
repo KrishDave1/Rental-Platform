@@ -1,6 +1,6 @@
 import { Display_Slider } from "./Display_Slider";
 import { Extra_Discounts } from "./Extra_Discounts";
-import { Footer } from "./Footer";
+import Footer from "./Footer";
 
 import { Navbar } from "./Navbar";
 import { Products } from "./Products";

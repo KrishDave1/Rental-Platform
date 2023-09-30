@@ -1,6 +1,6 @@
 import { SocialIcon } from "react-social-icons";
 
-export const Footer = () => {
+const Footer = () => {
   var today = new Date();
   return (
     <>
@@ -67,7 +67,7 @@ export const Footer = () => {
           </div>
         </div>
         <p>
-          CITIES WE DELIVER TO: Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
+          CITIES WE DELIVER TO:<br/> Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
           Chennai, Delhi, Noida, Ghaziabad, Faridabad
         </p>
         <div className="footer-copyright">
@@ -77,3 +77,5 @@ export const Footer = () => {
     </>
   );
 };
+
+export default Footer;
