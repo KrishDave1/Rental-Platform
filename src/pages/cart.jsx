@@ -6,7 +6,7 @@ import { BiArrowBack } from "react-icons/bi";
 
 import { useGlobalContext } from "../context";
 
-export default function CartList() {
+export default function Cart() {
   const { ClearCart, GetAmount, products, cartItems } = useGlobalContext();
 
   function Clear() {
