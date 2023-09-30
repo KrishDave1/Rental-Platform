@@ -11,8 +11,10 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+      <Homepage />
       <Display_Slider />
       {/* <Products /> */}
+
       <Footer />
     </div>
   );
