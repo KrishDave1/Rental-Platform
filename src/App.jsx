@@ -25,10 +25,10 @@ const App = () => {
   }
 
   const data20 = async() => {
-    const response = await fetch("http://localhost:3001/Chairs");
+    const response = await fetch("http://localhost:3001/Refer");
     const res = await response.json();
     console.log(res);
-    const data1 = res.Chairs;
+    const data1 = res.Refer;
     const data = data1.map((item) => ({
       Title: item.Title,
       Product_Id: item.Product_Id,
