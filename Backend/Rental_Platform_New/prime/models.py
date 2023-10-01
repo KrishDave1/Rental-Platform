@@ -4,7 +4,7 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 class CustomUser(AbstractUser):
     city_To_Rent = models.CharField(max_length=50)
-    phone_Number = models.BigIntegerField()
+    phone_Number = models.BigIntegerField(unique=True)
     email = models.EmailField(unique=True)
     # by default parameters = username, password
     USERNAME_FIELD = 'phone_Number'
