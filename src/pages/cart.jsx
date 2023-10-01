@@ -1,3 +1,5 @@
+/** @format */
+
 import CartItem from "../components/Cart_Item";
 
 import { useNavigate } from "react-router-dom";
@@ -36,7 +38,7 @@ export default function Cart() {
     );
 
   return (
-    <div className="bg-white grid grid-cols-2 mx-3 rounded-md">
+    <div className="bg-white mx-3 rounded-md cartpage-container">
       <ul>
         {products?.map((item) => {
           if (cartItems[item.id] !== 0) {
@@ -44,7 +46,8 @@ export default function Cart() {
           }
         })}
       </ul>
-      <div className="bg-slate-400 mt-5 rounded-md mx-3">
+
+      <div className="bg-slate-400 mt-5 rounded-md mx-3 cart-total-container">
         <p>Subtotal: {totalprice}</p>
         <p>Total Amount(including taxes and delivery charges): {Total_Price}</p>
         <button onClick={Clear} className="cart-btn btn">
