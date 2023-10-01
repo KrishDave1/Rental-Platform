@@ -1,3 +1,5 @@
+/** @format */
+
 import { ToastContainer, toast } from "react-toastify";
 import { useGlobalContext } from "../context";
 
@@ -12,6 +14,9 @@ export const Products = () => {
   //     }
   //   );
   // }
+
+
+  
   function handle(singleProduct) {
     handleAdd(singleProduct.id);
     // if (cartItems[singleProduct.id] < 1) toastfn(singleProduct);

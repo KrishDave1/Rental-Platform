@@ -16,8 +16,8 @@
         "Price": 13.98,
         "Reviews": 1631,
         "Rating": 4.7474,
-        "Price was": 15.979999542236328,
-        "Percentage off": 13,
+        "Price_was": 15.979999542236328,
+        "Percentage_off": 13,
         "Type": "chair"
       },
       {
@@ -35,8 +35,8 @@
         "Price": 455.71,
         "Reviews": 8,
         "Rating": 3.875,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "chair"
       },
       {
@@ -54,8 +54,8 @@
         "Price": 214.5,
         "Reviews": 4,
         "Rating": 5,
-        "Price was": 429,
-        "Percentage off": 50,
+        "Price_was": 429,
+        "Percentage_off": 50,
         "Type": "chair"
       },
       {
@@ -73,8 +73,8 @@
         "Price": 245.16,
         "Reviews": 31,
         "Rating": 4.4516,
-        "Price was": 288.07000732421875,
-        "Percentage off": 15,
+        "Price_was": 288.07000732421875,
+        "Percentage_off": 15,
         "Type": "chair"
       },
       {
@@ -92,8 +92,8 @@
         "Price": 230.84,
         "Reviews": 20,
         "Rating": 4.1,
-        "Price was": 288.54998779296875,
-        "Percentage off": 20,
+        "Price_was": 288.54998779296875,
+        "Percentage_off": 20,
         "Type": "chair"
       },
       {
@@ -111,8 +111,8 @@
         "Price": 573.03,
         "Reviews": 9,
         "Rating": 4,
-        "Price was": 636.7000122070312,
-        "Percentage off": 10,
+        "Price_was": 636.7000122070312,
+        "Percentage_off": 10,
         "Type": "chair"
       },
       {
@@ -130,8 +130,8 @@
         "Price": 185.57,
         "Reviews": 40,
         "Rating": 3.775,
-        "Price was": 206.19000244140625,
-        "Percentage off": 10,
+        "Price_was": 206.19000244140625,
+        "Percentage_off": 10,
         "Type": "chair"
       },
       {
@@ -149,8 +149,8 @@
         "Price": 313.25,
         "Reviews": 7,
         "Rating": 4.5714,
-        "Price was": 388.1499938964844,
-        "Percentage off": 19,
+        "Price_was": 388.1499938964844,
+        "Percentage_off": 19,
         "Type": "chair"
       },
       {
@@ -168,8 +168,8 @@
         "Price": 25.98,
         "Reviews": 461,
         "Rating": 4.2299,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "chair"
       },
       {
@@ -187,8 +187,8 @@
         "Price": 620.61,
         "Reviews": 171,
         "Rating": 4.6667,
-        "Price was": 827.47998046875,
-        "Percentage off": 25,
+        "Price_was": 827.47998046875,
+        "Percentage_off": 25,
         "Type": "chair"
       },
       {
@@ -206,8 +206,8 @@
         "Price": 184.98,
         "Reviews": 5,
         "Rating": 4,
-        "Price was": 205.5399932861328,
-        "Percentage off": 10,
+        "Price_was": 205.5399932861328,
+        "Percentage_off": 10,
         "Type": "chair"
       },
       {
@@ -225,8 +225,8 @@
         "Price": 257.4,
         "Reviews": 19,
         "Rating": 3.9474,
-        "Price was": 429,
-        "Percentage off": 40,
+        "Price_was": 429,
+        "Percentage_off": 40,
         "Type": "chair"
       },
       {
@@ -244,8 +244,8 @@
         "Price": 388.08,
         "Reviews": 278,
         "Rating": 4.0719,
-        "Price was": 448.1000061035156,
-        "Percentage off": 13,
+        "Price_was": 448.1000061035156,
+        "Percentage_off": 13,
         "Type": "chair"
       },
       {
@@ -263,8 +263,8 @@
         "Price": 928.1,
         "Reviews": 6,
         "Rating": 4.3333,
-        "Price was": 1093.4599609375,
-        "Percentage off": 15,
+        "Price_was": 1093.4599609375,
+        "Percentage_off": 15,
         "Type": "chair"
       },
       {
@@ -282,8 +282,8 @@
         "Price": 257.4,
         "Reviews": 9,
         "Rating": 3.5556,
-        "Price was": 429,
-        "Percentage off": 40,
+        "Price_was": 429,
+        "Percentage_off": 40,
         "Type": "chair"
       },
       {
@@ -301,8 +301,8 @@
         "Price": 539.1,
         "Reviews": 10,
         "Rating": 3.4,
-        "Price was": 634.239990234375,
-        "Percentage off": 15,
+        "Price_was": 634.239990234375,
+        "Percentage_off": 15,
         "Type": "chair"
       },
       {
@@ -320,8 +320,8 @@
         "Price": 224.1,
         "Reviews": 441,
         "Rating": 4.3878,
-        "Price was": 276.3900146484375,
-        "Percentage off": 19,
+        "Price_was": 276.3900146484375,
+        "Percentage_off": 19,
         "Type": "chair"
       },
       {
@@ -339,8 +339,8 @@
         "Price": 257.4,
         "Reviews": 19,
         "Rating": 3.9474,
-        "Price was": 429,
-        "Percentage off": 40,
+        "Price_was": 429,
+        "Percentage_off": 40,
         "Type": "chair"
       },
       {
@@ -358,8 +358,8 @@
         "Price": 508.77,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": 565.2999877929688,
-        "Percentage off": 10,
+        "Price_was": 565.2999877929688,
+        "Percentage_off": 10,
         "Type": "chair"
       },
       {
@@ -377,8 +377,8 @@
         "Price": 1824.25,
         "Reviews": 10,
         "Rating": 4.4,
-        "Price was": 2108.27001953125,
-        "Percentage off": 13,
+        "Price_was": 2108.27001953125,
+        "Percentage_off": 13,
         "Type": "chair"
       },
       {
@@ -396,8 +396,8 @@
         "Price": 183.69,
         "Reviews": 12,
         "Rating": 3.75,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "chair"
       },
       {
@@ -415,8 +415,8 @@
         "Price": 206.37,
         "Reviews": 20,
         "Rating": 4.35,
-        "Price was": 242.7899932861328,
-        "Percentage off": 15,
+        "Price_was": 242.7899932861328,
+        "Percentage_off": 15,
         "Type": "chair"
       },
       {
@@ -434,8 +434,8 @@
         "Price": 616.29,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "chair"
       },
       {
@@ -453,8 +453,8 @@
         "Price": 224.09,
         "Reviews": 444,
         "Rating": 3.509,
-        "Price was": 276.3699951171875,
-        "Percentage off": 19,
+        "Price_was": 276.3699951171875,
+        "Percentage_off": 19,
         "Type": "chair"
       }
     ]
@@ -476,8 +476,8 @@
         "Price": 160.14,
         "Reviews": 48,
         "Rating": 3.7708,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -495,8 +495,8 @@
         "Price": 121.53,
         "Reviews": 416,
         "Rating": 4.5216,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -514,8 +514,8 @@
         "Price": 215,
         "Reviews": 338,
         "Rating": 3.5621,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -533,8 +533,8 @@
         "Price": 376.37,
         "Reviews": 57,
         "Rating": 4.2982,
-        "Price was": 470.4700012207031,
-        "Percentage off": 20,
+        "Price_was": 470.4700012207031,
+        "Percentage_off": 20,
         "Type": "bed"
       },
       {
@@ -552,8 +552,8 @@
         "Price": 397.5,
         "Reviews": 34,
         "Rating": 3.9412,
-        "Price was": 430.42999267578125,
-        "Percentage off": 8,
+        "Price_was": 430.42999267578125,
+        "Percentage_off": 8,
         "Type": "bed"
       },
       {
@@ -571,8 +571,8 @@
         "Price": 398.8,
         "Reviews": 84,
         "Rating": 4.5476,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -590,8 +590,8 @@
         "Price": 154.52,
         "Reviews": 475,
         "Rating": 4.6063,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -609,8 +609,8 @@
         "Price": 339.15,
         "Reviews": 600,
         "Rating": 4.5317,
-        "Price was": 399,
-        "Percentage off": 15,
+        "Price_was": 399,
+        "Percentage_off": 15,
         "Type": "bed"
       },
       {
@@ -628,8 +628,8 @@
         "Price": 321.86,
         "Reviews": 94,
         "Rating": 4.8298,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -647,8 +647,8 @@
         "Price": 806.65,
         "Reviews": 115,
         "Rating": 4.5043,
-        "Price was": 949,
-        "Percentage off": 15,
+        "Price_was": 949,
+        "Percentage_off": 15,
         "Type": "bed"
       },
       {
@@ -666,8 +666,8 @@
         "Price": 1680,
         "Reviews": 64,
         "Rating": 4.4531,
-        "Price was": 2100,
-        "Percentage off": 20,
+        "Price_was": 2100,
+        "Percentage_off": 20,
         "Type": "bed"
       },
       {
@@ -685,8 +685,8 @@
         "Price": 231.75,
         "Reviews": 221,
         "Rating": 4.4932,
-        "Price was": 309,
-        "Percentage off": 25,
+        "Price_was": 309,
+        "Percentage_off": 25,
         "Type": "bed"
       },
       {
@@ -704,8 +704,8 @@
         "Price": 316.35,
         "Reviews": 80,
         "Rating": 4.75,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -723,8 +723,8 @@
         "Price": 453.03,
         "Reviews": 42,
         "Rating": 4.6905,
-        "Price was": 579.1699829101562,
-        "Percentage off": 22,
+        "Price_was": 579.1699829101562,
+        "Percentage_off": 22,
         "Type": "bed"
       },
       {
@@ -742,8 +742,8 @@
         "Price": 135.46,
         "Reviews": 404,
         "Rating": 4.5842,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -761,8 +761,8 @@
         "Price": 544.16,
         "Reviews": 113,
         "Rating": 3.9027,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -780,8 +780,8 @@
         "Price": 339.15,
         "Reviews": 148,
         "Rating": 4.5946,
-        "Price was": 399,
-        "Percentage off": 15,
+        "Price_was": 399,
+        "Percentage_off": 15,
         "Type": "bed"
       },
       {
@@ -799,8 +799,8 @@
         "Price": 2012.24,
         "Reviews": 182,
         "Rating": 4.3022,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -818,8 +818,8 @@
         "Price": 247.18,
         "Reviews": 15,
         "Rating": 4.4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -837,8 +837,8 @@
         "Price": 483.65,
         "Reviews": 187,
         "Rating": 3.6417,
-        "Price was": 569,
-        "Percentage off": 15,
+        "Price_was": 569,
+        "Percentage_off": 15,
         "Type": "bed"
       },
       {
@@ -856,8 +856,8 @@
         "Price": 49.99,
         "Reviews": 320,
         "Rating": 3.7094,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -875,8 +875,8 @@
         "Price": 432.58,
         "Reviews": 51,
         "Rating": 4.7451,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bed"
       },
       {
@@ -894,8 +894,8 @@
         "Price": 424.15,
         "Reviews": 189,
         "Rating": 4.5185,
-        "Price was": 499,
-        "Percentage off": 15,
+        "Price_was": 499,
+        "Percentage_off": 15,
         "Type": "bed"
       },
       {
@@ -913,8 +913,8 @@
         "Price": 194.35,
         "Reviews": 373,
         "Rating": 4.7212,
-        "Price was": 299,
-        "Percentage off": 35,
+        "Price_was": 299,
+        "Percentage_off": 35,
         "Type": "bed"
       }
     ]
@@ -936,8 +936,8 @@
         "Price": 305.11,
         "Reviews": 388,
         "Rating": 3.2809,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -955,8 +955,8 @@
         "Price": 306.33,
         "Reviews": 455,
         "Rating": 3.3626,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -974,8 +974,8 @@
         "Price": 546.73,
         "Reviews": 16,
         "Rating": 4.1875,
-        "Price was": 607.47998046875,
-        "Percentage off": 10,
+        "Price_was": 607.47998046875,
+        "Percentage_off": 10,
         "Type": "sofa"
       },
       {
@@ -993,8 +993,8 @@
         "Price": 432.2,
         "Reviews": 62,
         "Rating": 4.1452,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1012,8 +1012,8 @@
         "Price": 333.87,
         "Reviews": 78,
         "Rating": 3.8462,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1031,8 +1031,8 @@
         "Price": 1449.39,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 1610.43994140625,
-        "Percentage off": 10,
+        "Price_was": 1610.43994140625,
+        "Percentage_off": 10,
         "Type": "sofa"
       },
       {
@@ -1050,8 +1050,8 @@
         "Price": 2141.32,
         "Reviews": 1,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1069,8 +1069,8 @@
         "Price": 559.99,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 699.989990234375,
-        "Percentage off": 20,
+        "Price_was": 699.989990234375,
+        "Percentage_off": 20,
         "Type": "sofa"
       },
       {
@@ -1088,8 +1088,8 @@
         "Price": 1205.99,
         "Reviews": 4,
         "Rating": 4.5,
-        "Price was": 1339.989990234375,
-        "Percentage off": 10,
+        "Price_was": 1339.989990234375,
+        "Percentage_off": 10,
         "Type": "sofa"
       },
       {
@@ -1107,8 +1107,8 @@
         "Price": 1709,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1126,8 +1126,8 @@
         "Price": 1072.77,
         "Reviews": 2,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1145,8 +1145,8 @@
         "Price": 1418.53,
         "Reviews": 6,
         "Rating": 4.5,
-        "Price was": 1831.6700439453125,
-        "Percentage off": 23,
+        "Price_was": 1831.6700439453125,
+        "Percentage_off": 23,
         "Type": "sofa"
       },
       {
@@ -1164,8 +1164,8 @@
         "Price": 850.76,
         "Reviews": 2,
         "Rating": 4.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1183,8 +1183,8 @@
         "Price": 352.79,
         "Reviews": 18,
         "Rating": 4.2778,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1202,8 +1202,8 @@
         "Price": 499.5,
         "Reviews": 19,
         "Rating": 3.8421,
-        "Price was": 555.010009765625,
-        "Percentage off": 10,
+        "Price_was": 555.010009765625,
+        "Percentage_off": 10,
         "Type": "sofa"
       },
       {
@@ -1221,8 +1221,8 @@
         "Price": 410,
         "Reviews": 32,
         "Rating": 4.4375,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1240,8 +1240,8 @@
         "Price": 1079.99,
         "Reviews": 3,
         "Rating": 5,
-        "Price was": 1199.989990234375,
-        "Percentage off": 10,
+        "Price_was": 1199.989990234375,
+        "Percentage_off": 10,
         "Type": "sofa"
       },
       {
@@ -1259,8 +1259,8 @@
         "Price": 856.37,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1278,8 +1278,8 @@
         "Price": 755.43,
         "Reviews": 3,
         "Rating": 4.3333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1297,8 +1297,8 @@
         "Price": 1005.16,
         "Reviews": 46,
         "Rating": 4.6087,
-        "Price was": 1182.550048828125,
-        "Percentage off": 15,
+        "Price_was": 1182.550048828125,
+        "Percentage_off": 15,
         "Type": "sofa"
       },
       {
@@ -1316,8 +1316,8 @@
         "Price": 618.27,
         "Reviews": 5,
         "Rating": 2.4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       },
       {
@@ -1335,8 +1335,8 @@
         "Price": 572.18,
         "Reviews": 15,
         "Rating": 2.9333,
-        "Price was": 880.280029296875,
-        "Percentage off": 35,
+        "Price_was": 880.280029296875,
+        "Percentage_off": 35,
         "Type": "sofa"
       },
       {
@@ -1354,8 +1354,8 @@
         "Price": 603.81,
         "Reviews": 25,
         "Rating": 3.48,
-        "Price was": 754.77001953125,
-        "Percentage off": 20,
+        "Price_was": 754.77001953125,
+        "Percentage_off": 20,
         "Type": "sofa"
       },
       {
@@ -1373,8 +1373,8 @@
         "Price": 344.11,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "sofa"
       }
     ]
@@ -1396,8 +1396,8 @@
         "Price": 105.59,
         "Reviews": 15,
         "Rating": 4.0667,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1415,8 +1415,8 @@
         "Price": 229,
         "Reviews": 520,
         "Rating": 4.2115,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1434,8 +1434,8 @@
         "Price": 228.48,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1453,8 +1453,8 @@
         "Price": 274.66,
         "Reviews": 196,
         "Rating": 4.6888,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1472,8 +1472,8 @@
         "Price": 199,
         "Reviews": 104,
         "Rating": 4.8365,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1491,8 +1491,8 @@
         "Price": 147.8,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 197.36000061035156,
-        "Percentage off": 25,
+        "Price_was": 197.36000061035156,
+        "Percentage_off": 25,
         "Type": "cupboard"
       },
       {
@@ -1510,8 +1510,8 @@
         "Price": 224.6,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 357.29998779296875,
-        "Percentage off": 37,
+        "Price_was": 357.29998779296875,
+        "Percentage_off": 37,
         "Type": "cupboard"
       },
       {
@@ -1529,8 +1529,8 @@
         "Price": 142.79,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 158.66000366210938,
-        "Percentage off": 10,
+        "Price_was": 158.66000366210938,
+        "Percentage_off": 10,
         "Type": "cupboard"
       },
       {
@@ -1548,8 +1548,8 @@
         "Price": 225.99,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1567,8 +1567,8 @@
         "Price": 229,
         "Reviews": 577,
         "Rating": 4.0052,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1586,8 +1586,8 @@
         "Price": 287.94,
         "Reviews": 74,
         "Rating": 4.1622,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1605,8 +1605,8 @@
         "Price": 274,
         "Reviews": 283,
         "Rating": 3.9293,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1624,8 +1624,8 @@
         "Price": 557.71,
         "Reviews": 5,
         "Rating": 3.4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1643,8 +1643,8 @@
         "Price": 143.8,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 229.99000549316406,
-        "Percentage off": 37,
+        "Price_was": 229.99000549316406,
+        "Percentage_off": 37,
         "Type": "cupboard"
       },
       {
@@ -1662,8 +1662,8 @@
         "Price": 169.95,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1681,8 +1681,8 @@
         "Price": 239.2,
         "Reviews": 6,
         "Rating": 3.1667,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1700,8 +1700,8 @@
         "Price": 142.7,
         "Reviews": 6,
         "Rating": 4.3333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1719,8 +1719,8 @@
         "Price": 242.18,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1738,8 +1738,8 @@
         "Price": 164,
         "Reviews": 1437,
         "Rating": 3.9965,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1757,8 +1757,8 @@
         "Price": 301.37,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 471.1099853515625,
-        "Percentage off": 36,
+        "Price_was": 471.1099853515625,
+        "Percentage_off": 36,
         "Type": "cupboard"
       },
       {
@@ -1776,8 +1776,8 @@
         "Price": 132,
         "Reviews": 385,
         "Rating": 4.1818,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1795,8 +1795,8 @@
         "Price": 163.74,
         "Reviews": 1153,
         "Rating": 3.6184,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       },
       {
@@ -1814,8 +1814,8 @@
         "Price": 300.27,
         "Reviews": 9,
         "Rating": 4.6667,
-        "Price was": 401.989990234375,
-        "Percentage off": 25,
+        "Price_was": 401.989990234375,
+        "Percentage_off": 25,
         "Type": "cupboard"
       },
       {
@@ -1833,8 +1833,8 @@
         "Price": 395,
         "Reviews": 669,
         "Rating": 3.7145,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "cupboard"
       }
     ]
@@ -1856,8 +1856,8 @@
         "Price": 219.95,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1875,8 +1875,8 @@
         "Price": 180.77,
         "Reviews": 11,
         "Rating": 4.0909,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1894,8 +1894,8 @@
         "Price": 189.99,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1913,8 +1913,8 @@
         "Price": 99.22,
         "Reviews": 1,
         "Rating": 2,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1932,8 +1932,8 @@
         "Price": 51.49,
         "Reviews": 101,
         "Rating": 3.495,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1951,8 +1951,8 @@
         "Price": 154.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1970,8 +1970,8 @@
         "Price": 32.24,
         "Reviews": 293,
         "Rating": 3.5358,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -1989,8 +1989,8 @@
         "Price": 33.99,
         "Reviews": 108,
         "Rating": 4.2593,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2008,8 +2008,8 @@
         "Price": 38,
         "Reviews": 242,
         "Rating": 4.0372,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2027,8 +2027,8 @@
         "Price": 52.2,
         "Reviews": 101,
         "Rating": 3.6238,
-        "Price was": 58,
-        "Percentage off": 10,
+        "Price_was": 58,
+        "Percentage_off": 10,
         "Type": "study table"
       },
       {
@@ -2046,8 +2046,8 @@
         "Price": 153.99,
         "Reviews": 97,
         "Rating": 3.6598,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2065,8 +2065,8 @@
         "Price": 124.71,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 249.4199981689453,
-        "Percentage off": 50,
+        "Price_was": 249.4199981689453,
+        "Percentage_off": 50,
         "Type": "study table"
       },
       {
@@ -2084,8 +2084,8 @@
         "Price": 71.95,
         "Reviews": 179,
         "Rating": 3.6648,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2103,8 +2103,8 @@
         "Price": 198.03,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2122,8 +2122,8 @@
         "Price": 220.41,
         "Reviews": 1,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2141,8 +2141,8 @@
         "Price": 292.26,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2160,8 +2160,8 @@
         "Price": 322.96,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2179,8 +2179,8 @@
         "Price": 216.29,
         "Reviews": 4,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2198,8 +2198,8 @@
         "Price": 94.02,
         "Reviews": 10,
         "Rating": 4.8,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2217,8 +2217,8 @@
         "Price": 144.95,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2236,8 +2236,8 @@
         "Price": 213.35,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2255,8 +2255,8 @@
         "Price": 69.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2274,8 +2274,8 @@
         "Price": 95.05,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       },
       {
@@ -2293,8 +2293,8 @@
         "Price": 172.98,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study table"
       }
     ]
@@ -2316,8 +2316,8 @@
         "Price": 371.03,
         "Reviews": 82,
         "Rating": 3.9756,
-        "Price was": 446.04998779296875,
-        "Percentage off": 17,
+        "Price_was": 446.04998779296875,
+        "Percentage_off": 17,
         "Type": "dining table"
       },
       {
@@ -2335,8 +2335,8 @@
         "Price": 899.1,
         "Reviews": 127,
         "Rating": 4.4094,
-        "Price was": 999,
-        "Percentage off": 10,
+        "Price_was": 999,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2354,8 +2354,8 @@
         "Price": 899.1,
         "Reviews": 109,
         "Rating": 4.1927,
-        "Price was": 999,
-        "Percentage off": 10,
+        "Price_was": 999,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2373,8 +2373,8 @@
         "Price": 96.56,
         "Reviews": 187,
         "Rating": 4.6952,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2392,8 +2392,8 @@
         "Price": 309.66,
         "Reviews": 5,
         "Rating": 3.6,
-        "Price was": 344.07000732421875,
-        "Percentage off": 10,
+        "Price_was": 344.07000732421875,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2411,8 +2411,8 @@
         "Price": 811.33,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2430,8 +2430,8 @@
         "Price": 734.77,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 904,
-        "Percentage off": 19,
+        "Price_was": 904,
+        "Percentage_off": 19,
         "Type": "dining table"
       },
       {
@@ -2449,8 +2449,8 @@
         "Price": 285.31,
         "Reviews": 100,
         "Rating": 4.48,
-        "Price was": 317.0199890136719,
-        "Percentage off": 10,
+        "Price_was": 317.0199890136719,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2468,8 +2468,8 @@
         "Price": 649.35,
         "Reviews": 65,
         "Rating": 4.8,
-        "Price was": 999,
-        "Percentage off": 35,
+        "Price_was": 999,
+        "Percentage_off": 35,
         "Type": "dining table"
       },
       {
@@ -2487,8 +2487,8 @@
         "Price": 2269.99,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2506,8 +2506,8 @@
         "Price": 377.12,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 419.0199890136719,
-        "Percentage off": 10,
+        "Price_was": 419.0199890136719,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2525,8 +2525,8 @@
         "Price": 774.85,
         "Reviews": 3,
         "Rating": 2,
-        "Price was": 860.9400024414062,
-        "Percentage off": 10,
+        "Price_was": 860.9400024414062,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2544,8 +2544,8 @@
         "Price": 460.6,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2563,8 +2563,8 @@
         "Price": 375.42,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2582,8 +2582,8 @@
         "Price": 334.94,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2601,8 +2601,8 @@
         "Price": 279.78,
         "Reviews": 5,
         "Rating": 3.8,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2620,8 +2620,8 @@
         "Price": 551.81,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2639,8 +2639,8 @@
         "Price": 279,
         "Reviews": 36,
         "Rating": 4.5278,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2658,8 +2658,8 @@
         "Price": 263.49,
         "Reviews": 13,
         "Rating": 3.9231,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2677,8 +2677,8 @@
         "Price": 309.41,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2696,8 +2696,8 @@
         "Price": 784.08,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2715,8 +2715,8 @@
         "Price": 991.62,
         "Reviews": 8,
         "Rating": 4.25,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       },
       {
@@ -2734,8 +2734,8 @@
         "Price": 274.12,
         "Reviews": 31,
         "Rating": 3.7419,
-        "Price was": 304.5799865722656,
-        "Percentage off": 10,
+        "Price_was": 304.5799865722656,
+        "Percentage_off": 10,
         "Type": "dining table"
       },
       {
@@ -2753,8 +2753,8 @@
         "Price": 240.23,
         "Reviews": 5,
         "Rating": 4.2,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "dining table"
       }
     ]
@@ -2776,8 +2776,8 @@
         "Price": 98.37,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2795,8 +2795,8 @@
         "Price": 116.63,
         "Reviews": 37,
         "Rating": 4.5676,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2814,8 +2814,8 @@
         "Price": 87.83,
         "Reviews": 12,
         "Rating": 4.25,
-        "Price was": 128.69000244140625,
-        "Percentage off": 32,
+        "Price_was": 128.69000244140625,
+        "Percentage_off": 32,
         "Type": "study chair"
       },
       {
@@ -2833,8 +2833,8 @@
         "Price": 338.02,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2852,8 +2852,8 @@
         "Price": 182.44,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2871,8 +2871,8 @@
         "Price": 112.18,
         "Reviews": 68,
         "Rating": 4.25,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2890,8 +2890,8 @@
         "Price": 272.14,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 323.2300109863281,
-        "Percentage off": 16,
+        "Price_was": 323.2300109863281,
+        "Percentage_off": 16,
         "Type": "study chair"
       },
       {
@@ -2909,8 +2909,8 @@
         "Price": 294.99,
         "Reviews": 1,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2928,8 +2928,8 @@
         "Price": 218.64,
         "Reviews": 8,
         "Rating": 4.75,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2947,8 +2947,8 @@
         "Price": 72.72,
         "Reviews": 3,
         "Rating": 4.3333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2966,8 +2966,8 @@
         "Price": 125.98,
         "Reviews": 1,
         "Rating": 2,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -2985,8 +2985,8 @@
         "Price": 90,
         "Reviews": 30,
         "Rating": 4.2,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3004,8 +3004,8 @@
         "Price": 89.95,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3023,8 +3023,8 @@
         "Price": 45.05,
         "Reviews": 202,
         "Rating": 3.5297,
-        "Price was": 53,
-        "Percentage off": 15,
+        "Price_was": 53,
+        "Percentage_off": 15,
         "Type": "study chair"
       },
       {
@@ -3042,8 +3042,8 @@
         "Price": 175.43,
         "Reviews": 26,
         "Rating": 3.6538,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3061,8 +3061,8 @@
         "Price": 80.46,
         "Reviews": 17,
         "Rating": 4.0588,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3080,8 +3080,8 @@
         "Price": 82.09,
         "Reviews": 180,
         "Rating": 4.5556,
-        "Price was": 99,
-        "Percentage off": 17,
+        "Price_was": 99,
+        "Percentage_off": 17,
         "Type": "study chair"
       },
       {
@@ -3099,8 +3099,8 @@
         "Price": 124.64,
         "Reviews": 3,
         "Rating": 4.3333,
-        "Price was": 194.14999389648438,
-        "Percentage off": 36,
+        "Price_was": 194.14999389648438,
+        "Percentage_off": 36,
         "Type": "study chair"
       },
       {
@@ -3118,8 +3118,8 @@
         "Price": 379,
         "Reviews": 111,
         "Rating": 4.3694,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3137,8 +3137,8 @@
         "Price": 78.56,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3156,8 +3156,8 @@
         "Price": 129.04,
         "Reviews": 2,
         "Rating": 3.5,
-        "Price was": 157,
-        "Percentage off": 18,
+        "Price_was": 157,
+        "Percentage_off": 18,
         "Type": "study chair"
       },
       {
@@ -3175,8 +3175,8 @@
         "Price": 290.19,
         "Reviews": 4,
         "Rating": 4.25,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3194,8 +3194,8 @@
         "Price": 189.66,
         "Reviews": 94,
         "Rating": 4.3617,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "study chair"
       },
       {
@@ -3213,8 +3213,8 @@
         "Price": 29.26,
         "Reviews": 371,
         "Rating": 4.0458,
-        "Price was": 48.08000183105469,
-        "Percentage off": 39,
+        "Price_was": 48.08000183105469,
+        "Percentage_off": 39,
         "Type": "study chair"
       }
     ]
@@ -3236,8 +3236,8 @@
         "Price": 408.21,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3255,8 +3255,8 @@
         "Price": 144.39,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3274,8 +3274,8 @@
         "Price": 129.04,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3293,8 +3293,8 @@
         "Price": 485.61,
         "Reviews": 10,
         "Rating": 4.8,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3312,8 +3312,8 @@
         "Price": 64.55,
         "Reviews": 71,
         "Rating": 4.1831,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3331,8 +3331,8 @@
         "Price": 221.38,
         "Reviews": 5,
         "Rating": 2.6,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3350,8 +3350,8 @@
         "Price": 473.68,
         "Reviews": 34,
         "Rating": 4.6765,
-        "Price was": 526.3200073242188,
-        "Percentage off": 10,
+        "Price_was": 526.3200073242188,
+        "Percentage_off": 10,
         "Type": "center table"
       },
       {
@@ -3369,8 +3369,8 @@
         "Price": 265.22,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 294.69000244140625,
-        "Percentage off": 10,
+        "Price_was": 294.69000244140625,
+        "Percentage_off": 10,
         "Type": "center table"
       },
       {
@@ -3388,8 +3388,8 @@
         "Price": 271.43,
         "Reviews": 244,
         "Rating": 4.7008,
-        "Price was": 361.8999938964844,
-        "Percentage off": 25,
+        "Price_was": 361.8999938964844,
+        "Percentage_off": 25,
         "Type": "center table"
       },
       {
@@ -3407,8 +3407,8 @@
         "Price": 158.75,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3426,8 +3426,8 @@
         "Price": 105.93,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3445,8 +3445,8 @@
         "Price": 209.68,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3464,8 +3464,8 @@
         "Price": 109.95,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3483,8 +3483,8 @@
         "Price": 152,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 172.49000549316406,
-        "Percentage off": 12,
+        "Price_was": 172.49000549316406,
+        "Percentage_off": 12,
         "Type": "center table"
       },
       {
@@ -3502,8 +3502,8 @@
         "Price": 186.16,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3521,8 +3521,8 @@
         "Price": 190.35,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3540,8 +3540,8 @@
         "Price": 306.86,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3559,8 +3559,8 @@
         "Price": 149.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3578,8 +3578,8 @@
         "Price": 159.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3597,8 +3597,8 @@
         "Price": 179.83,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 241.05999755859375,
-        "Percentage off": 25,
+        "Price_was": 241.05999755859375,
+        "Percentage_off": 25,
         "Type": "center table"
       },
       {
@@ -3616,8 +3616,8 @@
         "Price": 213.27,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3635,8 +3635,8 @@
         "Price": 206.44,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "center table"
       },
       {
@@ -3654,8 +3654,8 @@
         "Price": 109.83,
         "Reviews": 3,
         "Rating": 4.6667,
-        "Price was": 122.04000091552734,
-        "Percentage off": 10,
+        "Price_was": 122.04000091552734,
+        "Percentage_off": 10,
         "Type": "center table"
       },
       {
@@ -3673,8 +3673,8 @@
         "Price": 545.5,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 620.9400024414062,
-        "Percentage off": 12,
+        "Price_was": 620.9400024414062,
+        "Percentage_off": 12,
         "Type": "center table"
       }
     ]
@@ -3696,8 +3696,8 @@
         "Price": 263.2,
         "Reviews": 1946,
         "Rating": 4.1917,
-        "Price was": 329,
-        "Percentage off": 20,
+        "Price_was": 329,
+        "Percentage_off": 20,
         "Type": "AC"
       },
       {
@@ -3715,8 +3715,8 @@
         "Price": 169,
         "Reviews": 2064,
         "Rating": 4.108,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3734,8 +3734,8 @@
         "Price": 154.91,
         "Reviews": 2230,
         "Rating": 4.1816,
-        "Price was": 193.63999938964844,
-        "Percentage off": 20,
+        "Price_was": 193.63999938964844,
+        "Percentage_off": 20,
         "Type": "AC"
       },
       {
@@ -3753,8 +3753,8 @@
         "Price": 289.52,
         "Reviews": 1098,
         "Rating": 4.1412,
-        "Price was": 361.8999938964844,
-        "Percentage off": 20,
+        "Price_was": 361.8999938964844,
+        "Percentage_off": 20,
         "Type": "AC"
       },
       {
@@ -3772,8 +3772,8 @@
         "Price": 299,
         "Reviews": 1674,
         "Rating": 4.218,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3791,8 +3791,8 @@
         "Price": 299,
         "Reviews": 3743,
         "Rating": 4.02,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3810,8 +3810,8 @@
         "Price": 329,
         "Reviews": 1987,
         "Rating": 3.9894,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3829,8 +3829,8 @@
         "Price": 282.22,
         "Reviews": 1090,
         "Rating": 3.8606,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3848,8 +3848,8 @@
         "Price": 253.53,
         "Reviews": 121,
         "Rating": 3.8678,
-        "Price was": 350.19000244140625,
-        "Percentage off": 28,
+        "Price_was": 350.19000244140625,
+        "Percentage_off": 28,
         "Type": "AC"
       },
       {
@@ -3867,8 +3867,8 @@
         "Price": 549.99,
         "Reviews": 3424,
         "Rating": 4.4766,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3886,8 +3886,8 @@
         "Price": 169,
         "Reviews": 3697,
         "Rating": 4.1344,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3905,8 +3905,8 @@
         "Price": 24.98,
         "Reviews": 416,
         "Rating": 4.3534,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3924,8 +3924,8 @@
         "Price": 446.31,
         "Reviews": 248,
         "Rating": 3.6532,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3943,8 +3943,8 @@
         "Price": 263.2,
         "Reviews": 1254,
         "Rating": 4.2105,
-        "Price was": 329,
-        "Percentage off": 20,
+        "Price_was": 329,
+        "Percentage_off": 20,
         "Type": "AC"
       },
       {
@@ -3962,8 +3962,8 @@
         "Price": 449,
         "Reviews": 923,
         "Rating": 4.0087,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -3981,8 +3981,8 @@
         "Price": 159,
         "Reviews": 2255,
         "Rating": 4.3605,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4000,8 +4000,8 @@
         "Price": 569,
         "Reviews": 3110,
         "Rating": 4.474,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4019,8 +4019,8 @@
         "Price": 389,
         "Reviews": 3080,
         "Rating": 3.989,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4038,8 +4038,8 @@
         "Price": 13.63,
         "Reviews": 197,
         "Rating": 3.9391,
-        "Price was": 15.140000343322754,
-        "Percentage off": 10,
+        "Price_was": 15.140000343322754,
+        "Percentage_off": 10,
         "Type": "AC"
       },
       {
@@ -4057,8 +4057,8 @@
         "Price": 169,
         "Reviews": 1649,
         "Rating": 4.0522,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4076,8 +4076,8 @@
         "Price": 255.2,
         "Reviews": 1806,
         "Rating": 4.0831,
-        "Price was": 319,
-        "Percentage off": 20,
+        "Price_was": 319,
+        "Percentage_off": 20,
         "Type": "AC"
       },
       {
@@ -4095,8 +4095,8 @@
         "Price": 404.1,
         "Reviews": 567,
         "Rating": 3.9136,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4114,8 +4114,8 @@
         "Price": 229,
         "Reviews": 1587,
         "Rating": 4.2527,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       },
       {
@@ -4133,8 +4133,8 @@
         "Price": 404.1,
         "Reviews": 1084,
         "Rating": 3.8376,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "AC"
       }
     ]
@@ -4156,8 +4156,8 @@
         "Price": 599.99,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4175,8 +4175,8 @@
         "Price": 2080.96,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4194,8 +4194,8 @@
         "Price": 1831.2,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4213,8 +4213,8 @@
         "Price": 1499.99,
         "Reviews": 1,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4232,8 +4232,8 @@
         "Price": 319,
         "Reviews": 11,
         "Rating": 3.4545,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4251,8 +4251,8 @@
         "Price": 262.01,
         "Reviews": 4,
         "Rating": 4,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4270,8 +4270,8 @@
         "Price": 2446.75,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4289,8 +4289,8 @@
         "Price": 1755.93,
         "Reviews": 2,
         "Rating": 3.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4308,8 +4308,8 @@
         "Price": 2531.54,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4327,8 +4327,8 @@
         "Price": 1799,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4346,8 +4346,8 @@
         "Price": 2234.38,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4365,8 +4365,8 @@
         "Price": 237.63,
         "Reviews": 5,
         "Rating": 2.2,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4384,8 +4384,8 @@
         "Price": 86.85,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4403,8 +4403,8 @@
         "Price": 811.27,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4422,8 +4422,8 @@
         "Price": 2696.94,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4441,8 +4441,8 @@
         "Price": 290.51,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4460,8 +4460,8 @@
         "Price": 799.99,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4479,8 +4479,8 @@
         "Price": 110.15,
         "Reviews": 2,
         "Rating": 3.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4498,8 +4498,8 @@
         "Price": 52.29,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4517,8 +4517,8 @@
         "Price": 251.93,
         "Reviews": 8,
         "Rating": 3.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4536,8 +4536,8 @@
         "Price": 246.55,
         "Reviews": 2,
         "Rating": 1,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4555,8 +4555,8 @@
         "Price": 2713.23,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4574,8 +4574,8 @@
         "Price": 129.99,
         "Reviews": 1,
         "Rating": 1,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       },
       {
@@ -4593,8 +4593,8 @@
         "Price": 1590.41,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "bike"
       }
     ]
@@ -4616,8 +4616,8 @@
         "Price": 799,
         "Reviews": 11,
         "Rating": 3.5455,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4635,8 +4635,8 @@
         "Price": 94.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4654,8 +4654,8 @@
         "Price": 599,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4673,8 +4673,8 @@
         "Price": 2377.52,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4692,8 +4692,8 @@
         "Price": 150.61,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4711,8 +4711,8 @@
         "Price": 1332.39,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4730,8 +4730,8 @@
         "Price": 35.2,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4749,8 +4749,8 @@
         "Price": 88.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4768,8 +4768,8 @@
         "Price": 816.89,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4787,8 +4787,8 @@
         "Price": 55.07,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4806,8 +4806,8 @@
         "Price": 1449.3,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4825,8 +4825,8 @@
         "Price": 1051.29,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4844,8 +4844,8 @@
         "Price": 1026.96,
         "Reviews": 1,
         "Rating": 1,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4863,8 +4863,8 @@
         "Price": 512.71,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4882,8 +4882,8 @@
         "Price": 1160,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4901,8 +4901,8 @@
         "Price": 285.72,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4920,8 +4920,8 @@
         "Price": 1332.39,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4939,8 +4939,8 @@
         "Price": 639.99,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4958,8 +4958,8 @@
         "Price": 64.27,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4977,8 +4977,8 @@
         "Price": 69.3,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -4996,8 +4996,8 @@
         "Price": 599,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -5015,8 +5015,8 @@
         "Price": 371.32,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -5034,8 +5034,8 @@
         "Price": 639.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       },
       {
@@ -5053,8 +5053,8 @@
         "Price": 799,
         "Reviews": 2,
         "Rating": 4.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "scooter"
       }
     ]
@@ -5076,8 +5076,8 @@
         "Price": 110.51,
         "Reviews": 3,
         "Rating": 4.3333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5095,8 +5095,8 @@
         "Price": 17.28,
         "Reviews": 2,
         "Rating": 4.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5114,8 +5114,8 @@
         "Price": 132.86,
         "Reviews": 21,
         "Rating": 3.9524,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5133,8 +5133,8 @@
         "Price": 159.07,
         "Reviews": 41,
         "Rating": 4.561,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5152,8 +5152,8 @@
         "Price": 34.99,
         "Reviews": 5,
         "Rating": 4.6,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5171,8 +5171,8 @@
         "Price": 123.59,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": 151.99000549316406,
-        "Percentage off": 19,
+        "Price_was": 151.99000549316406,
+        "Percentage_off": 19,
         "Type": "TV"
       },
       {
@@ -5190,8 +5190,8 @@
         "Price": 111.25,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5209,8 +5209,8 @@
         "Price": 46.32,
         "Reviews": 1,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5228,8 +5228,8 @@
         "Price": 89.97,
         "Reviews": 21,
         "Rating": 4.3333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5247,8 +5247,8 @@
         "Price": 129.99,
         "Reviews": 8,
         "Rating": 4.75,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5266,8 +5266,8 @@
         "Price": 34.95,
         "Reviews": 9,
         "Rating": 4.7778,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5285,8 +5285,8 @@
         "Price": 165.45,
         "Reviews": 2,
         "Rating": 4.5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5304,8 +5304,8 @@
         "Price": 89.99,
         "Reviews": 147,
         "Rating": 4.7347,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5323,8 +5323,8 @@
         "Price": 119.97,
         "Reviews": 15,
         "Rating": 4.1333,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5342,8 +5342,8 @@
         "Price": 74.98,
         "Reviews": 188,
         "Rating": 4.5745,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5361,8 +5361,8 @@
         "Price": 22.88,
         "Reviews": 226,
         "Rating": 4.4602,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5380,8 +5380,8 @@
         "Price": 27.97,
         "Reviews": 1168,
         "Rating": 4.2697,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5399,8 +5399,8 @@
         "Price": 34.97,
         "Reviews": 1168,
         "Rating": 4.2697,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5418,8 +5418,8 @@
         "Price": 27.46,
         "Reviews": 52,
         "Rating": 4.9038,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5437,8 +5437,8 @@
         "Price": 26.64,
         "Reviews": 13,
         "Rating": 5,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5456,8 +5456,8 @@
         "Price": 242.99,
         "Reviews": 245,
         "Rating": 4.3796,
-        "Price was": 269.989990234375,
-        "Percentage off": 10,
+        "Price_was": 269.989990234375,
+        "Percentage_off": 10,
         "Type": "TV"
       },
       {
@@ -5475,8 +5475,8 @@
         "Price": 159.99,
         "Reviews": 149,
         "Rating": 4.8523,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5494,8 +5494,8 @@
         "Price": 9.99,
         "Reviews": 13,
         "Rating": 2.4615,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       },
       {
@@ -5513,8 +5513,8 @@
         "Price": 23.78,
         "Reviews": 464,
         "Rating": 4.722,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "TV"
       }
     ]
@@ -5536,8 +5536,8 @@
         "Price": 725.37,
         "Reviews": 69,
         "Rating": 4.1594,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5555,8 +5555,8 @@
         "Price": 748.24,
         "Reviews": 8,
         "Rating": 4.25,
-        "Price was": 1008.6799926757812,
-        "Percentage off": 26,
+        "Price_was": 1008.6799926757812,
+        "Percentage_off": 26,
         "Type": "Dining Table Set"
       },
       {
@@ -5574,8 +5574,8 @@
         "Price": 164.5,
         "Reviews": 38,
         "Rating": 4.3158,
-        "Price was": 329,
-        "Percentage off": 50,
+        "Price_was": 329,
+        "Percentage_off": 50,
         "Type": "Dining Table Set"
       },
       {
@@ -5593,8 +5593,8 @@
         "Price": 799.99,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 1081,
-        "Percentage off": 26,
+        "Price_was": 1081,
+        "Percentage_off": 26,
         "Type": "Dining Table Set"
       },
       {
@@ -5612,8 +5612,8 @@
         "Price": 1530.42,
         "Reviews": 4,
         "Rating": 4.5,
-        "Price was": 1800.5,
-        "Percentage off": 15,
+        "Price_was": 1800.5,
+        "Percentage_off": 15,
         "Type": "Dining Table Set"
       },
       {
@@ -5631,8 +5631,8 @@
         "Price": 860.74,
         "Reviews": 28,
         "Rating": 4.3929,
-        "Price was": 956.3800048828125,
-        "Percentage off": 10,
+        "Price_was": 956.3800048828125,
+        "Percentage_off": 10,
         "Type": "Dining Table Set"
       },
       {
@@ -5650,8 +5650,8 @@
         "Price": 665.86,
         "Reviews": 1,
         "Rating": 1,
-        "Price was": 739.8499755859375,
-        "Percentage off": 10,
+        "Price_was": 739.8499755859375,
+        "Percentage_off": 10,
         "Type": "Dining Table Set"
       },
       {
@@ -5669,8 +5669,8 @@
         "Price": 1172.55,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5688,8 +5688,8 @@
         "Price": 1070.87,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": 1381.6400146484375,
-        "Percentage off": 22,
+        "Price_was": 1381.6400146484375,
+        "Percentage_off": 22,
         "Type": "Dining Table Set"
       },
       {
@@ -5707,8 +5707,8 @@
         "Price": 577.36,
         "Reviews": 4,
         "Rating": 5,
-        "Price was": 769.8200073242188,
-        "Percentage off": 25,
+        "Price_was": 769.8200073242188,
+        "Percentage_off": 25,
         "Type": "Dining Table Set"
       },
       {
@@ -5726,8 +5726,8 @@
         "Price": 589.93,
         "Reviews": 78,
         "Rating": 4.3974,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5745,8 +5745,8 @@
         "Price": 708.39,
         "Reviews": 11,
         "Rating": 2.8182,
-        "Price was": 1071.5799560546875,
-        "Percentage off": 34,
+        "Price_was": 1071.5799560546875,
+        "Percentage_off": 34,
         "Type": "Dining Table Set"
       },
       {
@@ -5764,8 +5764,8 @@
         "Price": 191.75,
         "Reviews": "undefined",
         "Rating": 0,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5783,8 +5783,8 @@
         "Price": 235.89,
         "Reviews": 10,
         "Rating": 3.7,
-        "Price was": 441.20001220703125,
-        "Percentage off": 47,
+        "Price_was": 441.20001220703125,
+        "Percentage_off": 47,
         "Type": "Dining Table Set"
       },
       {
@@ -5802,8 +5802,8 @@
         "Price": 322.9,
         "Reviews": 37,
         "Rating": 3.7297,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5821,8 +5821,8 @@
         "Price": 270.58,
         "Reviews": 3,
         "Rating": 4.6667,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5840,8 +5840,8 @@
         "Price": 1203.53,
         "Reviews": 17,
         "Rating": 4.2353,
-        "Price was": 1415.9200439453125,
-        "Percentage off": 15,
+        "Price_was": 1415.9200439453125,
+        "Percentage_off": 15,
         "Type": "Dining Table Set"
       },
       {
@@ -5859,8 +5859,8 @@
         "Price": 567.62,
         "Reviews": 23,
         "Rating": 4.2174,
-        "Price was": 756.8300170898438,
-        "Percentage off": 25,
+        "Price_was": 756.8300170898438,
+        "Percentage_off": 25,
         "Type": "Dining Table Set"
       },
       {
@@ -5878,8 +5878,8 @@
         "Price": 267.29,
         "Reviews": 12,
         "Rating": 4.4167,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5897,8 +5897,8 @@
         "Price": 961.42,
         "Reviews": 1,
         "Rating": 4,
-        "Price was": 1298.510009765625,
-        "Percentage off": 26,
+        "Price_was": 1298.510009765625,
+        "Percentage_off": 26,
         "Type": "Dining Table Set"
       },
       {
@@ -5916,8 +5916,8 @@
         "Price": 197.75,
         "Reviews": 2,
         "Rating": 5,
-        "Price was": 307.07000732421875,
-        "Percentage off": 36,
+        "Price_was": 307.07000732421875,
+        "Percentage_off": 36,
         "Type": "Dining Table Set"
       },
       {
@@ -5935,8 +5935,8 @@
         "Price": 200.16,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 230.7100067138672,
-        "Percentage off": 13,
+        "Price_was": 230.7100067138672,
+        "Percentage_off": 13,
         "Type": "Dining Table Set"
       },
       {
@@ -5954,8 +5954,8 @@
         "Price": 184.49,
         "Reviews": 3,
         "Rating": 4.6667,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "Dining Table Set"
       },
       {
@@ -5973,8 +5973,8 @@
         "Price": 196.74,
         "Reviews": 0,
         "Rating": 0,
-        "Price was": 242.61000061035156,
-        "Percentage off": 19,
+        "Price_was": 242.61000061035156,
+        "Percentage_off": 19,
         "Type": "Dining Table Set"
       }
     ]
@@ -5996,8 +5996,8 @@
         "Price": 618,
         "Reviews": 5178,
         "Rating": 4.4994,
-        "Price was": 829,
-        "Percentage off": 25,
+        "Price_was": 829,
+        "Percentage_off": 25,
         "Type": "refrigerator"
       },
       {
@@ -6015,8 +6015,8 @@
         "Price": 648,
         "Reviews": 10632,
         "Rating": 4.4384,
-        "Price was": 849,
-        "Percentage off": 24,
+        "Price_was": 849,
+        "Percentage_off": 24,
         "Type": "refrigerator"
       },
       {
@@ -6034,8 +6034,8 @@
         "Price": 1148,
         "Reviews": 9067,
         "Rating": 4.1505,
-        "Price was": 1799,
-        "Percentage off": 36,
+        "Price_was": 1799,
+        "Percentage_off": 36,
         "Type": "refrigerator"
       },
       {
@@ -6053,8 +6053,8 @@
         "Price": 1198,
         "Reviews": 2598,
         "Rating": 4.2079,
-        "Price was": 1666,
-        "Percentage off": 28,
+        "Price_was": 1666,
+        "Percentage_off": 28,
         "Type": "refrigerator"
       },
       {
@@ -6072,8 +6072,8 @@
         "Price": 1998,
         "Reviews": 10290,
         "Rating": 4.4511,
-        "Price was": 2999,
-        "Percentage off": 33,
+        "Price_was": 2999,
+        "Percentage_off": 33,
         "Type": "refrigerator"
       },
       {
@@ -6091,8 +6091,8 @@
         "Price": 1148,
         "Reviews": 10166,
         "Rating": 4.148,
-        "Price was": 1699,
-        "Percentage off": 32,
+        "Price_was": 1699,
+        "Percentage_off": 32,
         "Type": "refrigerator"
       },
       {
@@ -6110,8 +6110,8 @@
         "Price": 1098,
         "Reviews": 2072,
         "Rating": 4.1752,
-        "Price was": 1599,
-        "Percentage off": 31,
+        "Price_was": 1599,
+        "Percentage_off": 31,
         "Type": "refrigerator"
       },
       {
@@ -6129,8 +6129,8 @@
         "Price": 3199,
         "Reviews": 2380,
         "Rating": 3.9824,
-        "Price was": "undefined",
-        "Percentage off": "undefined",
+        "Price_was": "undefined",
+        "Percentage_off": "undefined",
         "Type": "refrigerator"
       },
       {
@@ -6148,8 +6148,8 @@
         "Price": 748,
         "Reviews": 4281,
         "Rating": 4.3754,
-        "Price was": 888,
-        "Percentage off": 16,
+        "Price_was": 888,
+        "Percentage_off": 16,
         "Type": "refrigerator"
       },
       {
@@ -6167,8 +6167,8 @@
         "Price": 678,
         "Reviews": 3259,
         "Rating": 4.4575,
-        "Price was": 1029,
-        "Percentage off": 34,
+        "Price_was": 1029,
+        "Percentage_off": 34,
         "Type": "refrigerator"
       },
       {
@@ -6186,8 +6186,8 @@
         "Price": 1698,
         "Reviews": 6619,
         "Rating": 4.3786,
-        "Price was": 2699,
-        "Percentage off": 37,
+        "Price_was": 2699,
+        "Percentage_off": 37,
         "Type": "refrigerator"
       },
       {
@@ -6205,8 +6205,8 @@
         "Price": 1048,
         "Reviews": 6588,
         "Rating": 4.291,
-        "Price was": 1499,
-        "Percentage off": 30,
+        "Price_was": 1499,
+        "Percentage_off": 30,
         "Type": "refrigerator"
       },
       {
@@ -6224,8 +6224,8 @@
         "Price": 3198,
         "Reviews": 8357,
         "Rating": 4.5058,
-        "Price was": 4199,
-        "Percentage off": 24,
+        "Price_was": 4199,
+        "Percentage_off": 24,
         "Type": "refrigerator"
       },
       {
@@ -6243,8 +6243,8 @@
         "Price": 379,
         "Reviews": 5915,
         "Rating": 4.4453,
-        "Price was": 449,
-        "Percentage off": 16,
+        "Price_was": 449,
+        "Percentage_off": 16,
         "Type": "refrigerator"
       },
       {
@@ -6262,8 +6262,8 @@
         "Price": 698,
         "Reviews": 10254,
         "Rating": 4.2794,
-        "Price was": 1099,
-        "Percentage off": 36,
+        "Price_was": 1099,
+        "Percentage_off": 36,
         "Type": "refrigerator"
       },
       {
@@ -6281,8 +6281,8 @@
         "Price": 1498,
         "Reviews": 2344,
         "Rating": 4.4074,
-        "Price was": 1777,
-        "Percentage off": 16,
+        "Price_was": 1777,
+        "Percentage_off": 16,
         "Type": "refrigerator"
       },
       {
@@ -6300,8 +6300,8 @@
         "Price": 2098,
         "Reviews": 3125,
         "Rating": 4.0826,
-        "Price was": 3099,
-        "Percentage off": 32,
+        "Price_was": 3099,
+        "Percentage_off": 32,
         "Type": "refrigerator"
       },
       {
@@ -6319,8 +6319,8 @@
         "Price": 698,
         "Reviews": 5727,
         "Rating": 4.3387,
-        "Price was": 999,
-        "Percentage off": 30,
+        "Price_was": 999,
+        "Percentage_off": 30,
         "Type": "refrigerator"
       },
       {
@@ -6338,8 +6338,8 @@
         "Price": 1398,
         "Reviews": 4848,
         "Rating": 4.3969,
-        "Price was": 1665,
-        "Percentage off": 16,
+        "Price_was": 1665,
+        "Percentage_off": 16,
         "Type": "refrigerator"
       },
       {
@@ -6357,8 +6357,8 @@
         "Price": 1698,
         "Reviews": 1415,
         "Rating": 4.4269,
-        "Price was": 2599,
-        "Percentage off": 35,
+        "Price_was": 2599,
+        "Percentage_off": 35,
         "Type": "refrigerator"
       },
       {
@@ -6376,8 +6376,8 @@
         "Price": 698,
         "Reviews": 5415,
         "Rating": 4.313,
-        "Price was": 899,
-        "Percentage off": 22,
+        "Price_was": 899,
+        "Percentage_off": 22,
         "Type": "refrigerator"
       },
       {
@@ -6395,8 +6395,8 @@
         "Price": 1198,
         "Reviews": 2890,
         "Rating": 4.5824,
-        "Price was": 1999,
-        "Percentage off": 40,
+        "Price_was": 1999,
+        "Percentage_off": 40,
         "Type": "refrigerator"
       },
       {
@@ -6414,8 +6414,8 @@
         "Price": 848,
         "Reviews": 292,
         "Rating": 4.4349,
-        "Price was": 999,
-        "Percentage off": 15,
+        "Price_was": 999,
+        "Percentage_off": 15,
         "Type": "refrigerator"
       },
       {
@@ -6433,8 +6433,8 @@
         "Price": 1898,
         "Reviews": 426,
         "Rating": 4.4319,
-        "Price was": 2499,
-        "Percentage off": 24,
+        "Price_was": 2499,
+        "Percentage_off": 24,
         "Type": "refrigerator"
       }
     ]

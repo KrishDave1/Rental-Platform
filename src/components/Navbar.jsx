@@ -6,10 +6,10 @@ import { useGlobalContext } from "../context";
 import Search from "./Search";
 
 export const Navbar = () => {
-  const { setLocation } = useGlobalContext();
+  const { setSidebar } = useGlobalContext();
 
   function handleLoc() {
-    setLocation(true);
+    setSidebar(true);
   }
   return (
     <nav className="">

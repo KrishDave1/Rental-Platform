@@ -359,12 +359,12 @@ section-center {
   display: grid;
   transition: var(--transition);
   z-index:100;
+  overflow: scroll;
 }
 
 .sidebar-container{
   width:30vw;
   height:100vh;
-  overflow:scroll;
   background:var(--white);
 }
 
