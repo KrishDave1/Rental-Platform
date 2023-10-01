@@ -5,19 +5,21 @@ import axios from "axios";
 const AppContext = React.createContext();
 function getDefaultCart() {
   let cart = {};
-  for (let i = 1; i < 101; i++) {
+  for (let i = 1; i < 341; i++) {
     cart[i] = 0;
   }
   return cart;
 }
 
-const dummyProducts = "https://dummyjson.com/products?limit=100";
+const dummyProducts = "http://localhost:7100/Products";
 
 const AppProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
   const [sidebar, setSidebar] = useState(false);
   const [wishItems, setWishItems] = useState(getDefaultCart());
+  const [searchTerm,setSearchTerm]=useState("");
+  const [categoriesProducts, setCategoriesProducts] = useState([]);
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
   }
@@ -38,7 +40,7 @@ const AppProvider = ({ children }) => {
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
         let iteminfo = products.find((it) => it.id === Number(item));
-        amt += cartItems[item] * iteminfo.price;
+        amt += cartItems[item] * iteminfo.Price;
       }
     }
     return amt;
@@ -60,18 +62,15 @@ const AppProvider = ({ children }) => {
     setSidebar(false);
   };
 
-  const fetchProducts = async (url) => {
-    try {
-      const response = await axios.get(url);
-      const { products } = response.data;
-      setProducts(products);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  async function fetchProducts() {
+    const res=await fetch(dummyProducts);
+    const data= await res.json();
+    console.log(data)
+    setProducts(data);
+  }
 
   useEffect(() => {
-    fetchProducts(dummyProducts);
+    fetchProducts();
   }, []);
 
   return (
@@ -91,6 +90,8 @@ const AppProvider = ({ children }) => {
         wishItems,
         handleAddWish,
         handleDeleteWish,
+        searchTerm,setSearchTerm,
+        categoriesProducts,setCategoriesProducts
       }}
     >
       {children}

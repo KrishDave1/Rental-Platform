@@ -19,16 +19,20 @@ export default function CartItem({ item }) {
         <div className="flex items-center w-full justify-around">
           <div className="flex flex-row items-center cart-container-image img mx-6">
             <img
-              src={item.images[0]}
-              alt={item.title}
+              src={item.Product_Image}
+              alt={item.Title}
               className="h-full rounded-md"
             />
           </div>
           <div className="flex flex-col justify-center">
             <div className="m-3">
-              <h2 className="text-xl font-semibold">{item.title}</h2>
-              <p className="text-lg font-semibold">₹{item.price * cartItems[item.id]}</p>
+              <h2 className="text-xl font-semibold">{item.Title}</h2>
+              <div>
+              {item.Percentage_off==="undefined" || item.Price_was==="undefined"? "M.R.P: "+"$"+Number(item.Price)*cartItems[item.id].toFixed(2)+" (0% off)": "M.R.P: $"+Number(item.Price_was)*cartItems[item.id].toFixed(2)+` (${item.Percentage_off}% off)`}
+              </div>
+              <p className="text-lg font-semibold">Our Price: ${item.Price*cartItems[item.id]}</p>
             </div>
+            
             <div className="flex px-4 mb-7">
               <button>
                 {" "}
