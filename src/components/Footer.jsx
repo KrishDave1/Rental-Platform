@@ -67,8 +67,9 @@ const Footer = () => {
           </div>
         </div>
         <p>
-          CITIES WE DELIVER TO:<br/> Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
-          Chennai, Delhi, Noida, Ghaziabad, Faridabad
+          CITIES WE DELIVER TO:
+          <br /> Mumbai, Pune, Gurugram, Bengaluru, Hyderabad, Chennai, Delhi,
+          Noida, Ghaziabad, Faridabad
         </p>
         <div className="footer-copyright">
           &copy; {today.getFullYear()} RentalInc. All Rights Reserved
