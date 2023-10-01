@@ -82,63 +82,77 @@ def product_List(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
-    
-class RegisterView(APIView):
-    def post(self, request):
-        serializer = CustomUser_Serializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        return Response(request.data)
 
-class LoginView(APIView):
-    def post(self, request):
-        email = request.data['email']
-        password = request.data['password']
-
-        user = User.objects.filter(email=email).first()
-
-        if(user is not None):
-            raise AuthenticationFailed("User not found!!")
-        
-        if(not user.check_password(password)):
-            raise AuthenticationFailed("Incorrect password")
-        
-        payload : {
-            'id' : user.id,
-            'exp' : datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30),
-            'iat' : datetime.datetime.utcnow()
-        }
-
-        token = jwt.encode(payload=payload, key='secret', algorithm='HS256').decode('utf-8')
-
-        response = Response()
-
-        response.set_cookie(key='jwt', value=token, httponly=True)
-        response.data = {
-            'jwt' : token
-        }
-        return response
-    
-class UserView(APIView):
-    def get(self, request):
-        token = request.COOKIES.get('jwt')
-
-        if(not token):
-            raise AuthenticationFailed("Unauthenticated")
-        
+@api_view(['DELETE'])
+def delete_Product(request, id):
+    if(request.method == "DELETE"):
         try:
-            payload = jwt.decode(token, key='secret', algorithms='HS256')
-        except jwt.ExpiredSignatureError:
-            raise AuthenticationFailed("Unauthenticated")
-        
-        user = User.objects.filter(id=payload['id']).first()
-        serializer = CustomUser_Serializer(user)
-        return Response(serializer.data)
+            product = Product.objects.get(Product_Id = id)
+        except Product.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        operation = product.delete()
+        if(operation):
+            messages.success(request=request, message="Deleted successfully")
+        else:
+            messages.error(request=request, message="Delete unsuccessful")
+    
+@api_view(['POST'])
+def register_User(request):
+    serializer = CustomUser_Serializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+    serializer.save()
+    return Response(request.data)
 
-class LogoutView(APIView):
-    def post(self, request):
-        response = Response()
-        response.delete_cookie('jwt')
-        response.data = {
-            'message' : 'success'
-        }
-        return response
+@api_view(['POST'])
+def login_User(request):
+    email = request.data['email']
+    password = request.data['password']
+
+    user = User.objects.filter(email=email).first()
+
+    if(user is not None):
+        raise AuthenticationFailed("User not found!!")
+        
+    if(not user.check_password(password)):
+        raise AuthenticationFailed("Incorrect password")
+        
+    payload : {
+        'id' : user.id,
+        'exp' : datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30),
+        'iat' : datetime.datetime.utcnow()
+    }
+
+    token = jwt.encode(payload=payload, key='secret', algorithm='HS256').decode('utf-8')
+
+    response = Response()
+
+    response.set_cookie(key='jwt', value=token, httponly=True)
+    response.data = {
+        'jwt' : token
+    }
+    return response
+    
+@api_view(['GET'])
+def user_View(request):
+    token = request.COOKIES.get('jwt')
+
+    if(not token):
+        raise AuthenticationFailed("Unauthenticated")
+        
+    try:
+        payload = jwt.decode(token, key='secret', algorithms='HS256')
+    except jwt.ExpiredSignatureError:
+        raise AuthenticationFailed("Unauthenticated")
+    
+    user = User.objects.filter(id=payload['id']).first()
+    serializer = CustomUser_Serializer(user)
+    return Response(serializer.data)
+
+@api_view(['POST'])
+def logout_User(request):
+    response = Response()
+    response.delete_cookie('jwt')
+    response.data = {
+        'message' : 'success'
+    }
+    return response

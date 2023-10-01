@@ -27,9 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-AUTH_USER_MODEL = 'prime.CustomUser'
 
 # Application definition
+
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ORIGIN_ALL = True
+CORS_ALLOW_METHODS = ['GET', 'POST', 'OPTIONS']
+CORS_ALLOW_HEADERS = ['Origin', 'Content-Type', 'Accept']
+CORS_ALLOWED_ORIGINS = [
+    'http://192.168.56.1:5001',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -44,6 +51,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,7 +60,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'Rental_Platform_New.urls'
@@ -124,13 +132,15 @@ STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+AUTH_USER_MODEL = 'prime.CustomUser'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS_ALLOW_ORIGIN = 'http://localhost:3000'
-CORS_ALLOW_ORIGIN_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_METHODS = ['GET', 'POST', 'OPTIONS']
-CORS_ALLOW_HEADERS = ['Origin', 'Content-Type', 'Accept']
+CORS_ALLOW_ORIGIN = 'http://localhost:3000'
 
-CORS_ALLOWED_ORIGINS = ['http://192.168.56.1:5001']
+
+STATIC_URL= '/static/'
+
+STATIC_ROOT= BASE_DIR / 'static'
+
+STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
