@@ -7,7 +7,7 @@ class CustomUser(AbstractUser):
     phone_Number = models.BigIntegerField()
     email = models.EmailField(unique=True)
     # by default parameters = username, password
-    USERNAME_FIELD = 'email'
+    USERNAME_FIELD = 'phone_Number'
     REQUIRED_FIELDS = []
 
 class Product(models.Model):
