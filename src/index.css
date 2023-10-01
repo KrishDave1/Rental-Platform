@@ -324,6 +324,30 @@ section-center {
   transform: translateY(-2px);
 }
 
+/* Cart CSS */
+.cartpage-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cart-container{
+  border:2.2px solid rgb(232, 232, 232);
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.cart-container-image{
+  object-fit: cover;
+}
+
+/* 
+.cart-container-topfield{
+  border-bottom: 2px solid black;
+} */
+/* .cart-total-container{
+  background-color: grey;
+} */
 /* SideBar CSS */
 .sidebar-overlay{
   position: fixed;
