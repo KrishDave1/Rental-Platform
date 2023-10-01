@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
+        <div className="footer-wrapper">
         <div className="footer-legal-info">
           <div className="footer-section">
             <h3>Legal Information</h3>
@@ -24,23 +25,31 @@ const Footer = () => {
         <div className="footer-connect">
           <div className="footer-section">
             <h3>Connect with Us</h3>
-            <ul>
-              <SocialIcon
-                style={{ height: "40px", width: "40px" }}
+              <ul>
+                <div style={{padding:"10px", display:"inline"}}>
+                <SocialIcon
+                style={{ height: "40px", width: "40px"}}
                 url="https://instagram.com"
               />
+                </div>
+              <div style={{padding:"10px", display:"inline"}}>
               <SocialIcon
                 style={{ height: "40px", width: "40px" }}
                 url="https://facebook.com"
-              />
+                  />
+                </div>
+                <div style={{padding:"10px", display:"inline"}}>
               <SocialIcon
                 style={{ height: "40px", width: "40px" }}
                 url="https://twitter.com"
-              />
+                  />
+                </div>
+                <div style={{padding:"10px", display:"inline"}}>
               <SocialIcon
                 style={{ height: "40px", width: "40px" }}
-                url="https://whatsapp.com"
-              />
+                    url="https://whatsapp.com"
+                  />
+                </div>
             </ul>
           </div>
         </div>
@@ -66,10 +75,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <p>
-          CITIES WE DELIVER TO:<br/> Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
-          Chennai, Delhi, Noida, Ghaziabad, Faridabad
-        </p>
+        </div>
+        <div className="footer-cities">
+          <p>
+            CITIES WE DELIVER TO: Mumbai, Pune, Gurugram, Bengaluru, Hyderabad,
+            Chennai, Delhi, Noida, Ghaziabad, Faridabad
+          </p>
+        </div>
         <div className="footer-copyright">
           &copy; {today.getFullYear()} RentalInc. All Rights Reserved
         </div>
