@@ -1,6 +1,7 @@
 import { Display_Slider } from "./Display_Slider";
 import { Extra_Discounts } from "./Extra_Discounts";
 import Footer from "./Footer";
+import Sidebar from "./Sidebar";
 
 import { Navbar } from "./Navbar";
 import { Products } from "./Products";
@@ -13,4 +14,5 @@ export {
   Navbar,
   Products,
   Offers_Discounts,
+  Sidebar,
 };

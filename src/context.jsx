@@ -16,7 +16,7 @@ const dummyProducts = "https://dummyjson.com/products?limit=100";
 const AppProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
-  const [sidebar, setSidebar] = useState(true);
+  const [sidebar, setSidebar] = useState(false);
   const [wishItems, setWishItems] = useState(getDefaultCart());
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
@@ -56,6 +56,10 @@ const AppProvider = ({ children }) => {
     setCartItems(getDefaultCart());
   }
 
+  const closeModal = () => {
+    setSidebar(false);
+  };
+
   const fetchProducts = async (url) => {
     try {
       const response = await axios.get(url);
@@ -82,6 +86,8 @@ const AppProvider = ({ children }) => {
         ClearCart,
         count,
         sidebar,
+        setSidebar,
+        closeModal,
         wishItems,
         handleAddWish,
         handleDeleteWish,
