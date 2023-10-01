@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from .models import Product, User
+from .models import Product, CustomUser
 
 class Product_Serializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = "__all__"
 
-class User_Serializer(serializers.ModelSerializer):
+class CustomUser_Serializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = CustomUser
         fields = "__all__"
