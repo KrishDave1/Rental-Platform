@@ -5,7 +5,7 @@ const search = new SerpApi.GoogleSearch(
 
 const params = {
   engine: "home_depot",
-  q: "refrigerator",
+  q: "study-chair",
 };
 
 const callback = function (data) {
@@ -16,15 +16,15 @@ const callback = function (data) {
     console.log("{");
     console.log('"Title" :"' + data["products"][i]["title"] + '"');
     console.log(',"Product_Id":' + data["products"][i]["product_id"]);
-    console.log(',"images" :[');
-    console.log('"' + data["products"][i]["thumbnails"][0][0] + '",');
-    console.log('"' + data["products"][i]["thumbnails"][0][1] + '",');
-    console.log('"' + data["products"][i]["thumbnails"][0][2] + '",');
-    console.log('"' + data["products"][i]["thumbnails"][0][3] + '",');
-    console.log('"' + data["products"][i]["thumbnails"][0][4] + '",');
-    console.log('"' + data["products"][i]["thumbnails"][0][5] + '",');
+    console.log(',"image" :');
+    // // console.log('"' + data["products"][i]["thumbnails"][0][0] + '",');
+    // console.log('"' + data["products"][i]["thumbnails"][0][1] + '",');
+    // console.log('"' + data["products"][i]["thumbnails"][0][2] + '",');
+    // console.log('"' + data["products"][i]["thumbnails"][0][3] + '",');
+    // console.log('"' + data["products"][i]["thumbnails"][0][4] + '",');
+    // console.log('"' + data["products"][i]["thumbnails"][0][5] + '",');
     console.log('"' + data["products"][i]["thumbnails"][0][6] + '"');
-    console.log("]");
+    // console.log("]");
     console.log(',"Price" :' + data["products"][i]["price"]);
     if (data["products"][i]["reviews"] === undefined)
       console.log(',"Reviews": ' + '"undefined"');

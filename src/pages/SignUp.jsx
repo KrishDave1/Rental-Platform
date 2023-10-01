@@ -30,35 +30,38 @@ export default function SignUp() {
   //     setLoading(false);
   //   }
   return (
-    <div className="">
-      <div className="">
+    <div className="flex min-h-full items-center justify-center text-center ">
+      <div className=" mt-16 h-2/5 w-2/5 bg-slate-100 p-16 shadow-md shadow-slate-400">
         <h2>Signup to grocery.com!</h2>
         {/* 
         {error && <Alert variant="danger">{error}</Alert>} */}
 
-        <form className="" onSubmit={handleSubmit}>
-          <div className="">
+        <form className="flex flex-col justify-around bg-slate-100" onSubmit={handleSubmit}>
+          <div className="p-8">
             <input
               type="text"
               value={email}
               placeholder="Email Address"
               onChange={(e) => setEmail(e.target.value)}
+              className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
             />
           </div>
-          <div className="">
+          <div className="p-8">
             <input
               type="password"
               value={password}
               placeholder="Password"
               onChange={(e) => setPwd(e.target.value)}
+              className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
             />
           </div>
-          <div className="">
+          <div className="p-8">
             <input
               type="password"
               value={cpassword}
               placeholder="Confirm Password"
               onChange={(e) => setcPwd(e.target.value)}
+              className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
             />
           </div>
           <div className="">

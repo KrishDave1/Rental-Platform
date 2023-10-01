@@ -9,7 +9,8 @@ import { BiArrowBack } from "react-icons/bi";
 import { useGlobalContext } from "../context";
 
 export default function Cart() {
-  const { ClearCart, GetAmount, products, cartItems } = useGlobalContext();
+  const { ClearCart, GetAmount, products, cartItems,count } = useGlobalContext();
+  const c=count();
 
   function Clear() {
     ClearCart();
@@ -38,6 +39,8 @@ export default function Cart() {
     );
 
   return (
+    <>
+    <h2>Your Cart {c}</h2>
     <div className="bg-white mx-3 rounded-md cartpage-container">
       <ul>
         {products?.map((item) => {
@@ -47,9 +50,23 @@ export default function Cart() {
         })}
       </ul>
 
-      <div className="bg-slate-400 mt-5 rounded-md mx-3 cart-total-container">
-        <p>Subtotal: {totalprice}</p>
-        <p>Total Amount(including taxes and delivery charges): {Total_Price}</p>
+      <div className="bg-slate-200 mt-5 h-96  rounded-md mx-3 justify-between cart-total-container">
+       <div className="p-6">
+        <span className="font-bold text-lg">Subtotal</span> 
+        <span className="float-right font-bold text-lg">{totalprice}</span>
+        </div>
+        
+        <div className="p-6">
+        <span className="font-bold text-lg">Delivery Charges</span> 
+        <span className="float-right font-bold text-lg">{deliverycharges}</span>
+        </div>
+        <hr/>
+      
+        <div className="p-6 ">
+        <span className="font-bold text-lg">Total Amount</span>
+          <span className="float-right font-bold text-lg"> ₹{Total_Price}</span>
+        </div>
+        <div className="flex mt-20 bg-slate-300 p-5 rounded-md "> 
         <button onClick={Clear} className="cart-btn btn">
           Clear Cart
         </button>
@@ -59,7 +76,9 @@ export default function Cart() {
         <button onClick={() => navigate("/checkout")} className="cart-btn btn">
           Proceed to checkout
         </button>
+        </div>
       </div>
     </div>
+    </>
   );
 }

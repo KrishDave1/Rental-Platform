@@ -13,31 +13,31 @@ export default function CartItem({ item }) {
     useGlobalContext();
 
   return (
-    <div className="bg-slate-200 rounded-md cart-container">
-      <div className="flex flex-col">
-        <div className="border-b-2 border-black w-full">Buy Item</div>
-        <div className="flex flex-row items-center w-full">
-          <div className="flex flex-row items-center cart-container-image img">
+    <div className="bg-slate-200 rounded-md cart-container ">
+      {/* <div className="flex flex-col"> */}
+        <div className="border-b-2 border-black w-full text-lg font-semibold">Buy Item</div>
+        <div className="flex items-center w-full justify-around">
+          <div className="flex flex-row items-center cart-container-image img mx-6">
             <img
               src={item.images[0]}
               alt={item.title}
               className="h-full rounded-md"
             />
           </div>
-          <div className="flex flex-col">
-            <div className="m-7">
-              <h2 className="text-lg">{item.title}</h2>
-              <p>₹{item.price * cartItems[item.id]}</p>
+          <div className="flex flex-col justify-center">
+            <div className="m-3">
+              <h2 className="text-xl font-semibold">{item.title}</h2>
+              <p className="text-lg font-semibold">₹{item.price * cartItems[item.id]}</p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex px-4 mb-7">
               <button>
                 {" "}
-                <LiaMinusCircleSolid onClick={() => handleDelete(item.id)} />
+                <LiaMinusCircleSolid size={"30px"} onClick={() => handleDelete(item.id)} />
               </button>
-              <span>{cartItems[item.id]}</span>
-              <span>
-                <LiaPlusCircleSolid onClick={() => handleAdd(item.id)} />
-              </span>
+              <span className="text-lg font-bold">{cartItems[item.id]}</span>
+              <button>
+                <LiaPlusCircleSolid size={"30px"} onClick={() => handleAdd(item.id)} />
+              </button>
             </div>
           </div>
           <div className="px-5 justify-end">
@@ -46,7 +46,7 @@ export default function CartItem({ item }) {
               size={"30px"}
               onClick={() => Delete(item.id)}
             />
-            <div>
+            <div className="p-3 justify-end">
               <button onClick={() => handleAddWish(item.id)}>
                 {" "}
                 Add to Wishlist
@@ -54,7 +54,7 @@ export default function CartItem({ item }) {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

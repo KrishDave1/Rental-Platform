@@ -1,15 +1,23 @@
 import { useGlobalContext } from "../context";
 
 const Wishlist = () => {
-  const { products, wishItems, handleAdd, handleDeleteWish } =
+  const { products, wishItems, handleAdd, handleDeleteWish,count } =
     useGlobalContext();
+
+    const c=count();
+
   return (
-    <ul>
+    <>    
+    <h1>Your Wishlist {}</h1>
+    <ul className="flex">
       {products?.map((item) => {
         const { id, title, images, price } = item;
+        
         if (wishItems[item.id] !== 0) {
+         
+          
           return (
-            <article key={id} className="single-product">
+            <article key={id} className="single-product m-4 ">
               <img src={images[0]} alt={title} className="img" />
               <footer className="text-area">
                 <div className="title-text">
@@ -40,6 +48,7 @@ const Wishlist = () => {
         }
       })}
     </ul>
+    </>
   );
 };
 
