@@ -7,7 +7,8 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { useGlobalContext } from "../context";
 
 export default function CartItem({ item }) {
-  const { handleDelete, handleAdd, Delete, cartItems } = useGlobalContext();
+  const { handleDelete, handleAdd, Delete, cartItems, handleAddWish } =
+    useGlobalContext();
 
   return (
     <div className="bg-slate-200 flex  px-10 m-5 rounded-md">
@@ -43,6 +44,9 @@ export default function CartItem({ item }) {
           size={"30px"}
           onClick={() => Delete(item.id)}
         />
+      </div>
+      <div>
+        <button onClick={() => handleAddWish(item.id)}> Add to Wishlist</button>
       </div>
     </div>
   );

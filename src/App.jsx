@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import SignUp from "./pages/SignUp";
 import Sidebar from "./components/Sidebar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Wishlist from "./pages/Wishlist";
 
 const App = () => {
   const { sidebar } = useGlobalContext();
@@ -15,13 +16,14 @@ const App = () => {
         <Navbar />
         {sidebar && <Sidebar />}
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" element={<Home />} />
           <Route path="buy" element={<Buy />} />
           <Route path="rent" element={<Rent />} />
           <Route path="cart" element={<Cart />} />
           <Route path="profile" element={<Profile />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
+          <Route path="wishlist" element={<Wishlist />} />
         </Routes>
         <Footer />
       </main>

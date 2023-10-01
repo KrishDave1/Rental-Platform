@@ -16,7 +16,8 @@ const dummyProducts = "https://dummyjson.com/products?limit=100";
 const AppProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
-  const [sidebar, setSidebar] = useState(true)
+  const [sidebar, setSidebar] = useState(true);
+  const [wishItems, setWishItems] = useState(getDefaultCart());
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
   }
@@ -25,6 +26,12 @@ const AppProvider = ({ children }) => {
   }
   function Delete(id) {
     setCartItems((prev) => ({ ...prev, [id]: 0 }));
+  }
+  function handleAddWish(id) {
+    setWishItems((prev) => ({ ...prev, [id]: 1 }));
+  }
+  function handleDeleteWish(id) {
+    setWishItems((prev) => ({ ...prev, [id]: 0 }));
   }
   function GetAmount() {
     let amt = 0;
@@ -76,6 +83,9 @@ const AppProvider = ({ children }) => {
         ClearCart,
         count,
         sidebar,
+        wishItems,
+        handleAddWish,
+        handleDeleteWish,
       }}
     >
       {children}
