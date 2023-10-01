@@ -60,7 +60,6 @@ const AppProvider = ({ children }) => {
     try {
       const response = await axios.get(url);
       const { products } = response.data;
-      console.log(products);
       setProducts(products);
     } catch (error) {
       console.log(error);
