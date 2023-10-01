@@ -1,21 +1,22 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
-class User(models.Model):
-    username = models.CharField(max_length=50)
-    email = models.EmailField()
-    password = models.CharField()
-    city_Where_Renting = models.CharField(max_length=20)
-
-    def __str__(self) -> str:
-        return (self.username)
+class CustomUser(AbstractUser):
+    city_To_Rent = models.CharField(max_length=50)
+    phone_Number = models.BigIntegerField()
+    email = models.EmailField(unique=True)
+    # by default parameters = username, password
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = []
 
 class Product(models.Model):
-    user = models.ForeignKey(User)
-    type_Of_Item = models.CharField(max_length=50)
-    price = models.IntegerField()
-    duration_Of_Rent = models.IntegerField()
-    city_Rent = models.CharField()
-
-    def __str__(self) -> str:
-        return (self.type_Of_Item)
+    product_ID = models.IntegerField()
+    product_Image = models.ImageField()
+    title = models.CharField(max_length=50)
+    product_Price = models.DecimalField(max_digits=20, decimal_places=10)
+    reviews = models.IntegerField()
+    rating = models.DecimalField(max_digits=20, decimal_places=10)
+    discount = models.DecimalField(max_digits=20, decimal_places=10)
+    type = models.CharField(max_length=50)
+    customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
