@@ -1,14 +1,41 @@
+/** @format */
+
 import { useState } from "react";
+// import { Redirect } from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
-function Login() {
+function Login(props = { setName: (name) => {} }) {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [password, setPwd] = useState("");
+  const [password, setPassword] = useState("");
+  const [redirect, setRedirect] = useState(false);
+
+  const submit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("http://192.168.66.165:55000/login/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    });
+
+    const content = await response.json();
+
+    setRedirect(true);
+    props.setName(content.name);
+  };
 
   const navigate = useNavigate();
+
+  if (redirect) {
+    return navigate("/");
+  }
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -34,7 +61,7 @@ function Login() {
         {/* {error && <Alert variant="danger">{error}</Alert>} */}
         <ToastContainer />
 
-        <form className="flex flex-col justify-around bg-slate-100">
+        <form className="flex flex-col justify-around bg-slate-100" onSubmit={submit}>
           <div className="p-8">
             <input
               type="text"
@@ -61,13 +88,13 @@ function Login() {
               className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
               value={password}
               placeholder="Enter password"
-              onChange={(e) => setPwd(e.target.value)}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
           <div>
             <button
               className="w-24 rounded bg-blue-400 p-2 text-lg hover:bg-blue-700"
-              onClick={handleSubmit}
+              onClick={submit}
             >
               Log in
             </button>

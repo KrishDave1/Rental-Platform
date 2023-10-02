@@ -2,6 +2,8 @@
 
 import React from "react";
 import { useGlobalContext } from "../context";
+import { useState } from "react";
+import {RxCross1} from "react-icons/rx"
 
 const cities = [
   {
@@ -61,24 +63,40 @@ const cities = [
 ];
 
 const Sidebar = () => {
-  const { closeModal } = useGlobalContext();
+  const { closeModal, setCity } = useGlobalContext();
+
+  const closeModalandSelectCity = (name) => {
+    closeModal();
+    console.log(name);
+    setCity(name);
+  };
+
   return (
     <div className="sidebar-overlay">
-      {cities.map((city) => {
-        const { id, img, pincode, name } = city;
-        return (
-          <div key={id} className="sidebar-container">
-            <img src={img} className="img modal-img" />
-            <div className="modal-content">
-              <h4>{name}</h4>
-              <h5>{pincode}</h5>
-            </div>
+      <div className="sidebar-header-main-main">
+        <div className="sidebar-header-main">
+          <h2>Select Your City</h2>
+          <div className="sidebar-header">
+            {cities.map((city) => {
+              const { id, img, pincode, name } = city;
+              return (
+                <div key={id} className="sidebar-container">
+                  <img
+                    src={img}
+                    className="img sidebar-img"
+                    onClick={() => closeModalandSelectCity(name)}
+                  />
+                  <div className="sidebar-content">
+                    <h4>{name}</h4>
+                    {/* <h5>{pincode}</h5> */}
+                  </div>
+                </div>
+              );
+            })}
           </div>
-        );
-      })}
-      <button className="btn btn-hipster close-btn" onClick={closeModal}>
-        close
-      </button>
+        </div>
+        <button className="sidebar-cross" onClick={closeModal}><RxCross1/></button>
+      </div>
     </div>
   );
 };

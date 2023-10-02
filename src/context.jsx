@@ -25,6 +25,7 @@ const AppProvider = ({ children }) => {
   const [wishItems, setWishItems] = useState(getDefaultCart());
   const [searchTerm,setSearchTerm]=useState("");
   const [categoriesProducts, setCategoriesProducts] = useState([]);
+  const [city, setCity] = useState("");
   const [totalPrice,setTotalPrice]=useState(getDefaultCartPrice());
   const [months,setMonths]=useState("1");
   function handleAdd(id) {
@@ -79,7 +80,6 @@ const AppProvider = ({ children }) => {
   async function fetchProducts() {
     const res=await fetch(dummyProducts);
     const data= await res.json();
-    console.log(data)
     setProducts(data);
   }
 
@@ -105,7 +105,8 @@ const AppProvider = ({ children }) => {
         handleAddWish,
         handleDeleteWish,
         searchTerm,setSearchTerm,
-        categoriesProducts,setCategoriesProducts,
+        categoriesProducts, setCategoriesProducts,
+        city, setCity,
         totalPrice,setTotalPrice,
         months,setMonths
       }}
