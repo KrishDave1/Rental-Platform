@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 
 import { Navbar } from "./Navbar";
-import { Products } from "./Products";
+import Products from "./Products";
 import { Offers_Discounts } from "./Offers_Discounts";
 
 export {

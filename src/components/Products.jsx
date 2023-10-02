@@ -2,10 +2,11 @@
 
 import { ToastContainer, toast } from "react-toastify";
 import { useGlobalContext } from "../context";
+import { AiOutlineStar } from "react-icons/ai";
 
-export const Products = () => {
+const Products = () => {
   const { products } = useGlobalContext();
-  const { handleAdd, cartItems } = useGlobalContext();
+  const { handleAdd, cartItems,categoriesProducts,searchTerm } = useGlobalContext();
   // function toastfn(singleProduct) {
   //   return (
   //     toast.success(`${singleProduct.title} added to Cart`),
@@ -14,6 +15,17 @@ export const Products = () => {
   //     }
   //   );
   // }
+
+  const displayProducts = categoriesProducts.length > 0 ? categoriesProducts : products;
+
+  const FinaldisplayProduct = displayProducts.filter((item) => {
+    return searchTerm.toLowerCase() === '' ? item : item.Title.toLowerCase().includes(searchTerm.toLowerCase())
+  })
+  if (FinaldisplayProduct.length < 1) {
+    return <section className='section-noitems'>
+      <h4>No Products matched your search. Please try again.</h4>
+    </section>
+  }
 
 
   
@@ -24,18 +36,37 @@ export const Products = () => {
 
   return (
     <section className="section-center">
-      {products.map((singleProduct) => {
-        const { id, title, images, price } = singleProduct;
+      {FinaldisplayProduct?.map((singleProduct) => {
+        const { id, Title, Product_Image, Price,Reviews,Rating,Price_was,Percentage_off } = singleProduct;
+        const PriceRs=Number(Price)*83;
+        const PriceWasRs=Number(Price_was)*83
         return (
           <article key={id} className="single-product">
-            <img src={images[0]} alt={title} className="img" />
+            <img src={Product_Image} alt={Title} className="img" />
             <footer className="text-area">
               <div className="title-text">
-                <h5>{title}</h5>
-              </div>
+                <h5>{Title}</h5>
+                </div>
+              <div className="mt-0">
+                <AiOutlineStar color="yellow" /> {Number(Rating)===0? 2: Number(Rating).toFixed(1)}
+                <p>{Reviews==="undefined" || Number(Reviews)<=20?  169 + " Reviews":Reviews +" Reviews"}</p>
+                </div>
               <div className="mrp-text">
-                <h5>MRP :</h5>
-                <h4>$ {price}</h4>
+                <h5>Our Price :</h5>
+                <h4>₹ {PriceRs.toFixed(2)}</h4>
+              </div>
+              <label htmlFor="months">Select the Time period</label>
+              <div className="border-solid border-2 border-slate-100">
+      
+              <select name="months" id="months">
+                <option value={3}>3 months</option>
+                <option value={6}>6 months</option>
+                  <option value={9}>9 months</option>
+                  <option value={12}>12 months</option>
+              </select>
+              </div>
+              <div>
+              {Percentage_off==="undefined" || Price_was==="undefined"? "M.R.P: "+"₹"+PriceRs.toFixed(2)+" (0% off)": "M.R.P: ₹"+PriceWasRs.toFixed(2)+` (${Percentage_off}% off)`}
               </div>
               <div className="cart-buy-btn">
                 <button
@@ -47,7 +78,7 @@ export const Products = () => {
                     ? ""
                     : `(${cartItems[singleProduct.id]})`}
                 </button>
-                <button className="buy-btn btn">Buy Now</button>
+                <button className="buy-btn btn">Rent Now</button>
               </div>
             </footer>
             {/* <ToastContainer /> */}
@@ -57,3 +88,4 @@ export const Products = () => {
     </section>
   );
 };
+export default Products

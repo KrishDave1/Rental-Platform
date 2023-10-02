@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 import Wishlist from "./pages/Wishlist";
 import data from "../data/data.json";
+import Categories from "./components/Categories";
 
 const App = () => {
   const { sidebar } = useGlobalContext();
@@ -99,6 +100,13 @@ const App = () => {
           <Route path="login" element={<Login setName={setName} />} />
           <Route path="signup" element={<SignUp component={SignUp} />} />
           <Route path="wishlist" element={<Wishlist />} />
+          <Route path='/categories' element={
+          
+              
+              <Categories />
+            
+          }>
+            </Route>
         </Routes>
         <Footer />
       </main>

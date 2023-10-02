@@ -21,9 +21,7 @@ export const Navbar = () => {
         <li className="px-10">
           <button onClick={() => handleLoc()}>Location</button>
         </li>
-        <li className="px-10">
-          <Link to="/buy">Buy</Link>
-        </li>
+        
         <li className="px-10">
           <Link to="/rent">Rent</Link>
         </li>
@@ -43,6 +41,11 @@ export const Navbar = () => {
         <li className="px-10">
           <Link to="/wishlist">
             <AiOutlineHeart />
+          </Link>
+        </li>
+        <li className="px-10">
+          <Link to="/categories">
+            Categories
           </Link>
         </li>
       </ul>
