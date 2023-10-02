@@ -40,7 +40,7 @@ export default function Cart() {
 
   return (
     <>
-    <h2>Your Cart {c}</h2>
+    <h2>Your Cart has {c} products</h2>
     <div className="bg-white mx-3 rounded-md cartpage-container">
       <ul>
         {products?.map((item) => {
