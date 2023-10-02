@@ -5,7 +5,7 @@ import { Navbar, Sidebar } from "./components";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useGlobalContext } from "./context";
-import { Cart, Home, Login, Profile, Rent } from "./pages";
+import { Buy, Cart, Home, Login, Profile, Rent } from "./pages";
 import { Footer } from "./components";
 import SignUp from "./pages/SignUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

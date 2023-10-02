@@ -10,6 +10,11 @@ function getDefaultCart() {
   }
   return cart;
 }
+function getDefaultCartPrice(){
+  let cart={};
+  for(let j=1;j<341;j++) cart[j]=0;
+  return cart;
+}
 
 const dummyProducts = "http://localhost:7100/Products";
 
@@ -21,6 +26,8 @@ const AppProvider = ({ children }) => {
   const [searchTerm,setSearchTerm]=useState("");
   const [categoriesProducts, setCategoriesProducts] = useState([]);
   const [city, setCity] = useState("");
+  const [totalPrice,setTotalPrice]=useState(getDefaultCartPrice());
+  const [months,setMonths]=useState("1");
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
   }
@@ -36,15 +43,22 @@ const AppProvider = ({ children }) => {
   function handleDeleteWish(id) {
     setWishItems((prev) => ({ ...prev, [id]: 0 }));
   }
+
   function GetAmount() {
     let amt = 0;
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
         let iteminfo = products.find((it) => it.id === Number(item));
-        amt += cartItems[item] * iteminfo.Price;
+        amt += cartItems[item] * (iteminfo.Price*83)/100;
       }
     }
     return amt;
+  }
+  function getTotalPrice(){
+    let a=0;
+    for(const i in totalPrice){
+      let info=products.find()
+    }
   }
   function count() {
     let c = 0;
@@ -93,6 +107,8 @@ const AppProvider = ({ children }) => {
         searchTerm,setSearchTerm,
         categoriesProducts, setCategoriesProducts,
         city, setCity,
+        totalPrice,setTotalPrice,
+        months,setMonths
       }}
     >
       {children}
