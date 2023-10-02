@@ -3,7 +3,7 @@
 import CartItem from "../components/Cart_Item";
 
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 import { BiArrowBack } from "react-icons/bi";
 
 import { useGlobalContext } from "../context";

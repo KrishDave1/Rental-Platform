@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import {Redirect, redirect} from "react-router-dom";
 
 import { Link, useNavigate } from "react-router-dom";
 // import styles from "./login.module.css";
@@ -6,18 +7,44 @@ import { Link, useNavigate } from "react-router-dom";
 // import { Container, Alert } from "react-bootstrap";
 export default function SignUp() {
   //   const { signup } = UseAuth();
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPwd] = useState("");
   const [cpassword, setcPwd] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [redirect, setRedirect] = useState(false);
   const navigate = useNavigate();
-  async function handleSubmit(e) {
-    e.preventDefault();
-    if (password !== cpassword) {
-      return setError("Passwords do not match");
-    }
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+  //   if (password !== cpassword) {
+  //     return setError("Passwords do not match");
+  //   }
+  // }
+
+      const submit = async (e) => {
+        e.preventDefault();
+        console.log(name, email, password);
+        if (password !== cpassword) {
+          return setError("Passwords do not match");
+        }
+        await fetch("http://192.168.66.165:55000/register/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name,
+            email,
+            password,
+          }),
+        });
+
+        setRedirect(true);
   }
+  
+  if (redirect) {
+    return navigate("/login");
+  }
+
 
   //     try {
   //       setLoading(true);
@@ -36,8 +63,16 @@ export default function SignUp() {
         {/* 
         {error && <Alert variant="danger">{error}</Alert>} */}
 
-        <form className="flex flex-col justify-around bg-slate-100" onSubmit={handleSubmit}>
+        <form className="flex flex-col justify-around bg-slate-100" onSubmit={submit}>
           <div className="p-8">
+            <input
+              type="text"
+              value={name}
+              placeholder="Name"
+              onChange={(e) => setName(e.target.value)}
+              className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
+            />
+          </div>
             <input
               type="text"
               value={email}
@@ -45,7 +80,6 @@ export default function SignUp() {
               onChange={(e) => setEmail(e.target.value)}
               className="w-64 rounded bg-slate-200 shadow-sm shadow-slate-400 p-2"
             />
-          </div>
           <div className="p-8">
             <input
               type="password"
@@ -65,7 +99,7 @@ export default function SignUp() {
             />
           </div>
           <div className="">
-            <button disabled={loading}>Sign Up</button>
+            <button type="submit" disabled={loading}>Sign Up</button>
           </div>
         </form>
       </div>
