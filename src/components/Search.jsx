@@ -15,9 +15,9 @@ const Search = () => {
   return (
     <header className="search-container">
       <form onSubmit={handleSubmit} className='form' >
-        <input type="text" placeholder="Search for products" className="form-input" onChange={handleChange} value={searchTerm}>
+        <input type="text" placeholder="  Search for products" className="form-input rounded-md" size="50" onChange={handleChange} value={searchTerm}>
         </input>
-        <button type="submit" className='btn'>                    <BsSearch />
+        <button type="submit" className='btn h-[28px]'><BsSearch />
         </button>
       </form>
     </header>

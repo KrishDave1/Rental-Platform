@@ -4,6 +4,7 @@ import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { useGlobalContext } from "../context";
 import Search from "./Search";
+import { GrLocation } from "react-icons/gr";
 
 export const Navbar = () => {
   const { setSidebar } = useGlobalContext();
@@ -14,15 +15,17 @@ export const Navbar = () => {
   }
   return (
     <nav className="">
-      <ul className="list-none flex flex-wrap justify-center items-center h-24">
+      <ul className="list-none flex flex-wrap justify-evenly items-center bg-slate-200 h-14 text-xl py-2">
         <Link to="/">
-          <li>Home</li>
+          <li>Rental.in</li>
         </Link>
 
         <li className="px-10">
-          <button onClick={() => handleLoc()}>Location + {city}</button>
+          <button onClick={() => handleLoc()} className="text-xl">
+            <GrLocation /> {city}
+          </button>
         </li>
-        
+
         <li className="px-10">
           <Link to="/rent">Rent</Link>
         </li>
@@ -42,11 +45,6 @@ export const Navbar = () => {
         <li className="px-10">
           <Link to="/wishlist">
             <AiOutlineHeart />
-          </Link>
-        </li>
-        <li className="px-10">
-          <Link to="/categories">
-            Categories
           </Link>
         </li>
       </ul>
