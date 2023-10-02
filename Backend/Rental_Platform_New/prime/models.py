@@ -6,7 +6,7 @@ from django.conf import settings
 class CustomUser(AbstractUser):
     city_To_Rent = models.CharField(max_length=50)
     phone_Number = models.BigIntegerField(unique=True)
-    email = models.EmailField(unique=True)
+    email = models.EmailField()
     # by default parameters = username, password
     USERNAME_FIELD = 'username'
     REQUIRED_FIELDS = ['phone_Number']
@@ -21,4 +21,14 @@ class Product(models.Model):
     Price_was = models.CharField(max_length=50)
     Percentage_off = models.CharField(max_length=200)
     Type = models.CharField(max_length=50)
-    # customer = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+
+    def __str__(self) -> str:
+        return (self.Title)
+
+class CustomUser_Product(models.Model):
+    customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+class City(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+

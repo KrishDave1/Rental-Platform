@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Product, CustomUser
+from .models import Product, CustomUser, CustomUser_Product
 
 class Product_Serializer(serializers.ModelSerializer):
     class Meta:
@@ -23,3 +23,8 @@ class CustomUser_Serializer(serializers.ModelSerializer):
             instance.set_password(password)
         instance.save()
         return instance
+
+class CustomUser_Product_Serializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomUser_Product
+        fields = "__all__"
