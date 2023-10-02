@@ -36,6 +36,7 @@ CORS_ALLOW_METHODS = ['GET', 'POST', 'OPTIONS']
 CORS_ALLOW_HEADERS = ['Origin', 'Content-Type', 'Accept']
 CORS_ALLOWED_ORIGINS = [
     'http://192.168.56.1:5001',
+    'http://localhost:5173'
 ]
 
 INSTALLED_APPS = [

@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.conf import settings
-
+import uuid
 # Create your models here.
 class CustomUser(AbstractUser):
     city_To_Rent = models.CharField(max_length=50)
@@ -29,6 +29,18 @@ class CustomUser_Product(models.Model):
     customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
 
-class City(models.Model):
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+class Cart(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True)
+    customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    completed = models.BooleanField(default=False)
 
+    def __str__(self) -> str:
+        return str(self.id)
+
+class Cart_Item(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="items")
+    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name="cartitems")
+    quantity = models.IntegerField(default=0)
+
+    def __str__(self) -> str:
+        return (self.product.Title)

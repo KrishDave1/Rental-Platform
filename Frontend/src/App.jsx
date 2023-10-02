@@ -29,8 +29,9 @@ function App() {
   }
 
   useEffect(() => {
-    axios.get('http://localhost:8000/')
+    axios.get('http://127.0.0.1:8000/products')
       .then((res) => {
+        console.log(res.data);
         setDetails(res.data);
       })
       .catch((err) => {});

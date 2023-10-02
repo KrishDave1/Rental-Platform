@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Product, CustomUser
+from .models import Product, CustomUser, Cart, Cart_Item, CustomUser_Product
 from .serializer import Product_Serializer, CustomUser_Serializer
 from rest_framework.response import Response
 from rest_framework import status
@@ -12,49 +12,51 @@ from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from rest_framework.exceptions import AuthenticationFailed
 import jwt, datetime
+import json
+from django.http import JsonResponse
 
 User = get_user_model()
 
 # Create your views here.
 
-def login_User(request):
-    if(request.user.is_authenticated):
-        return redirect('home')
+# def login_User(request):
+#     if(request.user.is_authenticated):
+#         return redirect('home')
     
-    if(request.method == "POST"):
-        username = request.POST.get('username')
-        password = request.POST.get('password')
+#     if(request.method == "POST"):
+#         username = request.POST.get('username')
+#         password = request.POST.get('password')
     
-        try:
-            user = User.objects.get(username=username)
-        except:
-            messages.error(request=request, message="Username does not exist")
+#         try:
+#             user = User.objects.get(username=username)
+#         except:
+#             messages.error(request=request, message="Username does not exist")
         
-        user = authenticate(request=request, username=username, password=password)
-        if(user is not None):
-            login(request=request, user=user)
-            return redirect('home.html')
-        else:
-            messages.error(request=request, message="Username or password is incorrect")
+#         user = authenticate(request=request, username=username, password=password)
+#         if(user is not None):
+#             login(request=request, user=user)
+#             return redirect('home.html')
+#         else:
+#             messages.error(request=request, message="Username or password is incorrect")
     
-    return render(request=request, template_name="login_Page.html")
+#     return render(request=request, template_name="login_Page.html")
 
-def logout_User(request):
-    logout(request=request)
-    return redirect('home.html')
+# def logout_User(request):
+#     logout(request=request)
+#     return redirect('home.html')
 
-def sign_Up_User(request):
-    if(request.method == "POST"):
-        username = request.POST.get('username')
-        email = request.POST.get('email')
-        password_1 = request.POST.get('password_1')
-        password_2 = request.POST.get('password_2')
-        if(password_1 == password_2):
-            user = User.objects.create_user(username=username, email=email, password=password_1)
-            return redirect("login_Page.html")
-        else:
-            messages.error(request=request, message="Your password and confirm password do not match.")
-    return render(request=request, template_name="sign_Up.html")
+# def sign_Up_User(request):
+#     if(request.method == "POST"):
+#         username = request.POST.get('username')
+#         email = request.POST.get('email')
+#         password_1 = request.POST.get('password_1')
+#         password_2 = request.POST.get('password_2')
+#         if(password_1 == password_2):
+#             user = User.objects.create_user(username=username, email=email, password=password_1)
+#             return redirect("login_Page.html")
+#         else:
+#             messages.error(request=request, message="Your password and confirm password do not match.")
+#     return render(request=request, template_name="sign_Up.html")
 
 @api_view(['GET', 'POST'])
 def user_List(request):
@@ -95,7 +97,7 @@ def delete_Product(request, id):
             messages.success(request=request, message="Deleted successfully")
         else:
             messages.error(request=request, message="Delete unsuccessful")
-    
+# Register, Login, User view, logout 
 @api_view(['POST'])
 def register_User(request):
     serializer = CustomUser_Serializer(data=request.data)
@@ -156,3 +158,16 @@ def logout_User(request):
         'message' : 'success'
     }
     return response
+
+@api_view(['POST'])
+def add_To_Cart(request):
+    data = json.loads(request.body)
+    Product_Id = data['id']
+    product = Product.objects.get(Product_Id=Product_Id)
+    if(request.user.is_authenticated()):
+        cart, created = Cart.objects.get_or_create(user=request.user, completed=False)
+        cart_Item, created = Cart_Item.objects.get_or_create(cart=cart, product=product)
+        cart_Item.quantity += 1
+        cart_Item.save()
+    return JsonResponse(data="It is working", safe=False)
+    
