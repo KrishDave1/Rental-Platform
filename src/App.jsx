@@ -57,30 +57,25 @@ const App = () => {
   const [name, setName] = useState("");
 
   useEffect(() => {
-    // (async () => {
-    //   let headers = new Headers();
-    //   headers.append(
-    //     "Access-Control-Allow-Origin",
-    //     "http://192.168.66.165:55000/products/"
-    //   );
-    //   headers.append("Access-Control-Allow-Credentials", "true");
-    //   const response = await axios.get("http://192.168.66.165:55000/products/", {
-    //     headers: headers,
-    //     method: "GET",
-    //     mode: "no-cors",
-    //     credentials: "include",
-    //   });
+    (async () => {
+      let headers = new Headers();
+      headers.append(
+        "Access-Control-Allow-Origin",
+        "http://192.168.66.165:55000/products/"
+      );
+      headers.append("Access-Control-Allow-Credentials", "true");
+      const response = await axios.get("http://192.168.66.165:55000/products/", {
+        headers: headers,
+        method: "GET",
+        mode: "no-cors",
+        credentials: "include",
+      });
 
-    //   const content = await response;
-    //   console.log(content);
+      const content = await response;
+      console.log(content);
 
-    //   setName(content.name);
-    // })();
-    let headers = new Headers();
-    headers.append("Access-Control-Allow-Origin", "http://localhost:3000");
-    headers.append("Access-Control-Allow-Credentials", "true");
-    headers.append("Content-Type", "application/json");
-    headers.append("Accept", "application/json");
+      setName(content.name);
+    })();
 
   }, []);
 
@@ -88,20 +83,16 @@ const App = () => {
     <BrowserRouter>
       <main>
         <Navbar />
-        <Nav name={name} setName={setName} />
+        {/* <Nav name={name} setName={setName} /> */}
         {sidebar && <Sidebar />}
         <Routes>
           <Route path="/" element={<Home name={name} />} />
-          {/* <Route path="buy" element={<Buy />} /> */}
-          <Route path="rent" element={<Rent />} />
           <Route path="cart" element={<Cart />} />
           <Route path="profile" element={<Profile />} />
           <Route path="login" element={<Login setName={setName} />} />
           <Route path="signup" element={<SignUp component={SignUp} />} />
           <Route path="wishlist" element={<Wishlist />} />
-          <Route path='/categories' element={
-          
-              
+          <Route path='rent' element={
               <Categories />
             
           }>

@@ -349,6 +349,10 @@ section-center {
   background-color: grey;
 } */
 
+/* Slider CSS */
+.slider-bg-image{
+  background-image: url(./assets/images/background.jpg);
+}
 
 /* SideBar CSS */
 .sidebar-overlay{
@@ -376,7 +380,7 @@ section-center {
   flex-wrap: wrap;
   text-align: center;
   background-color: var(--white);
-  width:95%;
+  width: 100%;
 }
 
 .sidebar-cross{
