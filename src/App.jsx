@@ -9,6 +9,7 @@ import SignUp from "./pages/SignUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Wishlist from "./pages/Wishlist";
 import data from "../data/data.json";
+import Categories from "./components/Categories";
 
 const App = () => {
   // const { sidebar } = useGlobalContext();
@@ -68,13 +69,20 @@ const App = () => {
         {/* {sidebar && <Sidebar />} */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="buy" element={<Buy />} />
+          {/* <Route path="buy" element={<Buy />} /> */}
           <Route path="rent" element={<Rent />} />
           <Route path="cart" element={<Cart />} />
           <Route path="profile" element={<Profile />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="wishlist" element={<Wishlist />} />
+          <Route path='/categories' element={
+          
+              
+              <Categories />
+            
+          }>
+            </Route>
         </Routes>
         {/* <div>
           <header>Data Generated from Django</header>

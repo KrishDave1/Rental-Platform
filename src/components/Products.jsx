@@ -4,9 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import { useGlobalContext } from "../context";
 import { AiOutlineStar } from "react-icons/ai";
 
-export const Products = () => {
+const Products = () => {
   const { products } = useGlobalContext();
-  const { handleAdd, cartItems } = useGlobalContext();
+  const { handleAdd, cartItems,categoriesProducts,searchTerm } = useGlobalContext();
   // function toastfn(singleProduct) {
   //   return (
   //     toast.success(`${singleProduct.title} added to Cart`),
@@ -15,6 +15,17 @@ export const Products = () => {
   //     }
   //   );
   // }
+
+  const displayProducts = categoriesProducts.length > 0 ? categoriesProducts : products;
+
+  const FinaldisplayProduct = displayProducts.filter((item) => {
+    return searchTerm.toLowerCase() === '' ? item : item.Title.toLowerCase().includes(searchTerm.toLowerCase())
+  })
+  if (FinaldisplayProduct.length < 1) {
+    return <section className='section-noitems'>
+      <h4>No Products matched your search. Please try again.</h4>
+    </section>
+  }
 
 
   
@@ -25,7 +36,7 @@ export const Products = () => {
 
   return (
     <section className="section-center">
-      {products?.map((singleProduct) => {
+      {FinaldisplayProduct?.map((singleProduct) => {
         const { id, Title, Product_Image, Price,Reviews,Rating,Price_was,Percentage_off } = singleProduct;
         const PriceRs=Number(Price)*83;
         const PriceWasRs=Number(Price_was)*83
@@ -77,3 +88,4 @@ export const Products = () => {
     </section>
   );
 };
+export default Products

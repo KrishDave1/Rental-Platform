@@ -14,7 +14,7 @@ const Categories = () => {
   }, []);
 
   const handleFilter = (category) => {
-    const filteredProducts = products.filter((item) => item.category === category);
+    const filteredProducts = products.filter((item) => item.Type === category);
     setCategoriesProducts(filteredProducts);
     setActiveCategory(category);
   };
@@ -32,29 +32,94 @@ const Categories = () => {
           All Categories
         </button></div>
         <div className='categories-others'><button
-          className={`filter-button ${activeCategory === '' ? 'active' : ''}`}
-          onClick={() => handleFilter('jewelery')}
+          className={`filter-button ${activeCategory === 'scooter' ? 'active' : ''}`}
+          onClick={() => handleFilter('scooter')}
         >
-          Jewelery
+          Scooter
         </button>
           <button
-            className={`filter-button ${activeCategory === "men's clothing" ? 'active' : ''}`}
-            onClick={() => handleFilter("men's clothing")}
+            className={`filter-button ${activeCategory === "bed" ? 'active' : ''}`}
+            onClick={() => handleFilter("bed")}
           >
-            Men's Clothing
+            Beds
           </button>
           <button
-            className={`filter-button ${activeCategory === "women's clothing" ? 'active' : ''}`}
-            onClick={() => handleFilter("women's clothing")}
+            className={`filter-button ${activeCategory === "dining table" ? 'active' : ''}`}
+            onClick={() => handleFilter("dining table")}
           >
-            Women's Clothing
+            dining table
           </button>
           <button
-            className={`filter-button ${activeCategory === 'electronics' ? 'active' : ''}`}
-            onClick={() => handleFilter('electronics')}
+            className={`filter-button ${activeCategory === "Dining Table Set" ? 'active' : ''}`}
+            onClick={() => handleFilter("Dining Table Set")}
           >
-            Electronics
-          </button></div>
+            dining table set
+          </button>
+          <button
+            className={`filter-button ${activeCategory === "study table" ? 'active' : ''}`}
+            onClick={() => handleFilter("study table")}
+          >
+            study table
+          </button>
+          <button
+            className={`filter-button ${activeCategory === "center table" ? 'active' : ''}`}
+            onClick={() => handleFilter("dining table")}
+          >
+            center table
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'sofa' ? 'active' : ''}`}
+            onClick={() => handleFilter('sofa')}
+          >
+           Sofas
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'TV' ? 'active' : ''}`}
+            onClick={() => handleFilter('TV')}
+          >
+           TV
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'AC' ? 'active' : ''}`}
+            onClick={() => handleFilter('AC')}
+          >
+           AC
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'bike' ? 'active' : ''}`}
+            onClick={() => handleFilter('bike')}
+
+          >
+           Bikes
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'study chair' ? 'active' : ''}`}
+            onClick={() => handleFilter('study chair')}
+          >
+           Study Chair
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'refrigerator' ? 'active' : ''}`}
+            onClick={() => handleFilter('refrigerator')}
+          >
+           refrigerators
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'cupboard' ? 'active' : ''}`}
+            onClick={() => handleFilter('cupboard')}
+          >
+           Cupboard
+          </button>
+          <button
+            className={`filter-button ${activeCategory === 'chair' ? 'active' : ''}`}
+            onClick={() => handleFilter('chair')}
+          >
+           Chair
+          </button>
+          
+          
+          
+          </div>
       </div>
       <Products />
     </>
