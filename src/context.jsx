@@ -20,6 +20,7 @@ const AppProvider = ({ children }) => {
   const [wishItems, setWishItems] = useState(getDefaultCart());
   const [searchTerm,setSearchTerm]=useState("");
   const [categoriesProducts, setCategoriesProducts] = useState([]);
+  const [city, setCity] = useState("");
   function handleAdd(id) {
     setCartItems((prev) => ({ ...prev, [id]: prev[id] + 1 }));
   }
@@ -65,7 +66,6 @@ const AppProvider = ({ children }) => {
   async function fetchProducts() {
     const res=await fetch(dummyProducts);
     const data= await res.json();
-    console.log(data)
     setProducts(data);
   }
 
@@ -91,7 +91,8 @@ const AppProvider = ({ children }) => {
         handleAddWish,
         handleDeleteWish,
         searchTerm,setSearchTerm,
-        categoriesProducts,setCategoriesProducts
+        categoriesProducts, setCategoriesProducts,
+        city, setCity,
       }}
     >
       {children}

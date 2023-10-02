@@ -5,7 +5,7 @@ import { Navbar, Sidebar } from "./components";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useGlobalContext } from "./context";
-import { Buy, Cart, Home, Login, Profile, Rent } from "./pages";
+import { Cart, Home, Login, Profile, Rent } from "./pages";
 import { Footer } from "./components";
 import SignUp from "./pages/SignUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -81,8 +81,6 @@ const App = () => {
     headers.append("Content-Type", "application/json");
     headers.append("Accept", "application/json");
 
-  
-
   }, []);
 
   return (
@@ -93,7 +91,7 @@ const App = () => {
         {sidebar && <Sidebar />}
         <Routes>
           <Route path="/" element={<Home name={name} />} />
-          <Route path="buy" element={<Buy />} />
+          {/* <Route path="buy" element={<Buy />} /> */}
           <Route path="rent" element={<Rent />} />
           <Route path="cart" element={<Cart />} />
           <Route path="profile" element={<Profile />} />

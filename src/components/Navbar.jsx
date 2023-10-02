@@ -7,6 +7,7 @@ import Search from "./Search";
 
 export const Navbar = () => {
   const { setSidebar } = useGlobalContext();
+  const { city } = useGlobalContext();
 
   function handleLoc() {
     setSidebar(true);
@@ -19,7 +20,7 @@ export const Navbar = () => {
         </Link>
 
         <li className="px-10">
-          <button onClick={() => handleLoc()}>Location</button>
+          <button onClick={() => handleLoc()}>Location + {city}</button>
         </li>
         
         <li className="px-10">
