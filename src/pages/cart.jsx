@@ -30,7 +30,7 @@ export default function Cart() {
         <div>
           <BiArrowBack
             cursor={"pointer"}
-            onClick={() => navigate("/buy")}
+            onClick={() => navigate("/rent")}
           ></BiArrowBack>
 
           <span> Go back to to products page</span>

@@ -5,7 +5,7 @@ import { Navbar, Sidebar } from "./components";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useGlobalContext } from "./context";
-import { Buy, Cart, Home, Login, Profile, Rent } from "./pages";
+import { Cart, Home, Login, Profile, Rent,Checkout } from "./pages";
 import { Footer } from "./components";
 import SignUp from "./pages/SignUp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -13,6 +13,7 @@ import Nav from "./components/Nav";
 import Wishlist from "./pages/Wishlist";
 import data from "../data/data.json";
 import Categories from "./components/Categories";
+
 
 const App = () => {
   const { sidebar } = useGlobalContext();
@@ -105,6 +106,7 @@ const App = () => {
             
           }>
             </Route>
+            <Route path="checkout" element={<Checkout/>}/>
         </Routes>
         <Footer />
       </main>

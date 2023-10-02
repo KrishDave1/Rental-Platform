@@ -5,6 +5,8 @@ const Wishlist = () => {
     useGlobalContext();
 
     const c=count();
+   
+    
 
   return (
     <>    
@@ -12,6 +14,8 @@ const Wishlist = () => {
     <ul className="flex">
       {products?.map((item) => {
         const { id, Title, Product_Image, Price,Price_was,Percentage_off } = item;
+        const PriceRs=(Number(Price)*83)/100;
+        const PriceWasRs=(Number(Price_was)*83)/100
         
         if (wishItems[item.id] !== 0) {
          
@@ -24,11 +28,11 @@ const Wishlist = () => {
                   <h5>{Title}</h5>
                 </div>
                 <div>
-                {Percentage_off==="undefined" || Price_was==="undefined"? "M.R.P: "+"$"+Number(Price)*wishItems[id].toFixed(2)+" (0% off)": "M.R.P: $"+Number(Price_was)*wishItems[id].toFixed(2)+` (${Percentage_off}% off)`}
+                {Percentage_off==="undefined" || Price_was==="undefined"? "M.R.P: "+"₹"+PriceRs.toFixed(2)+"/mo"+" (0% off)": "M.R.P: ₹"+PriceWasRs.toFixed(2)+"/mo"+` (${Percentage_off}% off)`}
                 </div>
                 <div className="mrp-text">
                   <h5>Our Price:</h5>
-                  <h4>$ {Number(Price).toFixed(2)}</h4>
+                  <h4>₹ {PriceRs}</h4>
                 </div>
                 <div>
 
