@@ -53,18 +53,18 @@ export default function Cart() {
       <div className="bg-slate-200 mt-5 h-96  rounded-md mx-3 justify-between cart-total-container">
        <div className="p-6">
         <span className="font-bold text-lg">Subtotal</span> 
-        <span className="float-right font-bold text-lg">${totalprice.toFixed(2)}</span>
+        <span className="float-right font-bold text-lg">₹{totalprice.toFixed(2)}</span>
         </div>
         
         <div className="p-6">
         <span className="font-bold text-lg">Delivery Charges</span> 
-        <span className="float-right font-bold text-lg">${deliverycharges.toFixed(2)}</span>
+        <span className="float-right font-bold text-lg">₹{deliverycharges.toFixed(2)}</span>
         </div>
         <hr/>
       
         <div className="p-6 ">
         <span className="font-bold text-lg">Total Amount</span>
-          <span className="float-right font-bold text-lg"> ${Total_Price.toFixed(2)}</span>
+          <span className="float-right font-bold text-lg"> ₹{Total_Price.toFixed(2)}</span>
         </div>
         <div className="flex mt-20 bg-slate-300 p-5 rounded-md "> 
         <button onClick={Clear} className="cart-btn btn">
